@@ -8,7 +8,8 @@
         "homepage": "https://ontology.eglobalmark.com/waste#homepage",
         "themes": "http://www.w3.org/ns/dcat#themes",
         "dataset": "http://www.w3.org/ns/dcat#dataset",
-        "service": "http://www.w3.org/ns/dcat#service"
+        "service": "http://www.w3.org/ns/dcat#service",
+        "endpointURL": "http://www.w3.org/ns/dcat#endpointURL"
 
     }
 }

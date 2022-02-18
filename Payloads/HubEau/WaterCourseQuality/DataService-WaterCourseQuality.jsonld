@@ -1,0 +1,11 @@
+{
+    "id": "urn:ngsi-ld:DataService:Hydrometry",
+    "type": "DataService",
+    "endpointURL": {
+        "type": "Property",
+        "value": "https://hubeau.eaufrance.fr/api/v1/qualite_rivieres/station_pc?"
+    },
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}

@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:DataSet:Hydrometry",
+    "id": "urn:ngsi-ld:Distribution:Station:Hydrometry",
     "type": [
         "Distribution",
         "Station"
