@@ -4,6 +4,26 @@
         "Distribution",
         "Station"
     ],
+    "refDataService": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataService:GroundWaterQuality"
+    },
+    "refDataSet": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataSet:GroundWaterQuality"
+    },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
+    },
+    "stationCode": {
+        "type": "Property",
+        "object": "YX00176635"
+    },
+    "themes": {
+        "type": "Property",
+        "object": "GroundWaterQuality"
+    },
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]

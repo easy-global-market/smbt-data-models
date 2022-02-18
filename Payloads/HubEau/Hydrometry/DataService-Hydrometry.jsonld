@@ -1,6 +1,10 @@
 {
     "id": "urn:ngsi-ld:DataService:Hydrometry",
     "type": "DataService",
+    "servesDataset": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataSet:Hydrometry"
+    },
     "endpointURL": {
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/api/v1/hydrometrie/observations_tr?"

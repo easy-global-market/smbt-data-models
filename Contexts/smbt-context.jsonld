@@ -9,7 +9,7 @@
         "themes": "http://www.w3.org/ns/dcat#themes",
         "dataset": "http://www.w3.org/ns/dcat#dataset",
         "service": "http://www.w3.org/ns/dcat#service",
-        "endpointURL": "http://www.w3.org/ns/dcat#endpointURL"
-
+        "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
+        "servesDataset": "http://www.w3.org/ns/dcat#servesDataset"
     }
 }

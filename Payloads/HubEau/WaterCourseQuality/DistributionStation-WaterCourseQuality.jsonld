@@ -4,6 +4,18 @@
         "Distribution",
         "Station"
     ],
+    "refDataService": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataService:WaterCourseQuality"
+    },
+    "refDataSet": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataSet:WaterCourseQuality"
+    },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
+    },
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]

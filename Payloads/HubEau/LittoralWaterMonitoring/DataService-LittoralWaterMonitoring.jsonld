@@ -5,6 +5,10 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/api/vbeta/surveillance_littoral/lieux_surv?"
     },
+    "servesDataset": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:DataSet:LittoralWaterMonitoring"
+    },
     "@context": [
         "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]
