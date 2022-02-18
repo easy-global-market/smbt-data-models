@@ -1,0 +1,75 @@
+{
+    "id": "urn:ngsi-ld:Catalog:HubEau",
+    "type": "Catalog",
+    "title": {
+        "type": "Property",
+        "value": "HubEau"
+    },
+    "homepage": {
+        "type": "Property",
+        "value": "https://hubeau.eaufrance.fr/"
+    },
+    "dataset": [
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Dataset:hydrometry",
+            "datasetId": "urn:ngsi-ld:Dataset:01",
+            "themes": {
+                "type": "Property",
+                "value": "hydrometry"
+            }
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Dataset:WaterCourseQuality",
+            "datasetId": "urn:ngsi-ld:Dataset:02",
+            "themes": {
+                "type": "Property",
+                "value": "WaterCourseQuality"
+            }
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Dataset:LittoralWaterMonitoring",
+            "datasetId": "urn:ngsi-ld:Dataset:03",
+            "themes": {
+                "type": "Property",
+                "value": "LittoralWaterMonitoring"
+            }
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Dataset:GroundWaterQuality",
+            "datasetId": "urn:ngsi-ld:Dataset:04",
+            "themes": {
+                "type": "Property",
+                "value": "GroundWaterQuality"
+            }
+        }
+    ],
+    "service": [
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:DataService:hydrometry",
+            "datasetId": "urn:ngsi-ld:Dataset:01"
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:DataService:WaterCourseQuality",
+            "datasetId": "urn:ngsi-ld:Dataset:02"
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:DataService:LittoralWaterMonitoring",
+            "datasetId": "urn:ngsi-ld:Dataset:03"
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:DataService:GroundWaterQuality",
+            "datasetId": "urn:ngsi-ld:Dataset:04"
+        }
+    ],
+    "@context": [
+        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+    ]
+}
