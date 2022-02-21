@@ -5,11 +5,13 @@
         "DataService": "http://www.w3.org/ns/dcat#DataService",
 
         "title": "http://purl.org/dc/terms/title",
-        "homepage": "https://ontology.eglobalmark.com/waste#homepage",
+        "homepage": "http://xmlns.com/foaf/0.1/homepage",
         "themes": "http://www.w3.org/ns/dcat#themes",
-        "dataset": "http://www.w3.org/ns/dcat#dataset",
-        "service": "http://www.w3.org/ns/dcat#service",
+        "hasDataset": "http://www.w3.org/ns/dcat#dataset",
+        "hasDistribution": "http://www.w3.org/ns/dcat#distribution",
+        "hasService": "http://www.w3.org/ns/dcat#service",
         "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
-        "servesDataset": "http://www.w3.org/ns/dcat#servesDataset"
+        "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
+        "refCatalog": "http://www.w3.org/ns/dcat#catalog"
     }
 }

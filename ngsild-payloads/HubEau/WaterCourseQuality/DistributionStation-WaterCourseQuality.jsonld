@@ -4,19 +4,15 @@
         "Distribution",
         "Station"
     ],
-    "refDataService": {
+    "servesDataset": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:DataService:WaterCourseQuality"
-    },
-    "refDataSet": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:DataSet:WaterCourseQuality"
+        "object": "urn:ngsi-ld:Dataset:WaterCourseQuality"
     },
     "refCatalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
     "@context": [
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
 }

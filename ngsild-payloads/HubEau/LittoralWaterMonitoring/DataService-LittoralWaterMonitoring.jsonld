@@ -9,7 +9,11 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:DataSet:LittoralWaterMonitoring"
     },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
+    },
     "@context": [
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
 }

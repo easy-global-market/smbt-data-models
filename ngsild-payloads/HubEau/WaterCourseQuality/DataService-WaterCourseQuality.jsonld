@@ -5,7 +5,11 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/api/v1/qualite_rivieres/station_pc?"
     },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
+    },
     "@context": [
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
 }

@@ -4,13 +4,9 @@
         "Distribution",
         "Station"
     ],
-    "refDataService": {
+    "servesDataset": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:DataService:GroundWaterQuality"
-    },
-    "refDataSet": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:DataSet:GroundWaterQuality"
+        "object": "urn:ngsi-ld:Dataset:GroundWaterQuality"
     },
     "refCatalog": {
         "type": "Relationship",
@@ -25,6 +21,6 @@
         "object": "GroundWaterQuality"
     },
     "@context": [
-        "http://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
 }
