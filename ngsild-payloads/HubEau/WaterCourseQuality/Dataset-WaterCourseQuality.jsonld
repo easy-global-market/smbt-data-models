@@ -13,10 +13,18 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
     },
-    "theme": {
-        "type": "Property",
-        "value": ["Eau & Nutriments", "Risques climatiques"]
-    },
+    "isContainedIn": [
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:Eau&Nutriments",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:Eau&Nutriments"
+        },
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:Risques&Environnement",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:Risques&Environnement"
+        }
+    ],
     "hasDistribution": [
         {
             "type": "Relationship",
