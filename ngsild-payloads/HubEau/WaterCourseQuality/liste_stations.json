@@ -1,0 +1,52 @@
+{
+    "StationMesureEauxSurface": [
+        {
+            "code": "06188870",
+            "libelle": "SOUPIE A MARSEILLAN "
+        },
+        {
+            "code": "06188880",
+            "libelle": "NEGUE VAQUES A MEZE "
+        },
+        {
+            "code": "06188890",
+            "libelle": "PALLAS A LOUPIAN 1"
+        },
+        {
+            "code": "06188895",
+            "libelle": "CALADE A VILLEVEYRAC "
+        },
+        {
+            "code": "06188900",
+            "libelle": "PALLAS A LOUPIAN 2"
+        },
+        {
+            "code": "06188910",
+            "libelle": "VENE A GIGEAN "
+        },
+        {
+            "code": "06188930",
+            "libelle": "CANAL DU MIDI A AGDE 2"
+        },
+        {
+            "code": "06187450",
+            "libelle": "VENE A BALARUC-LE-VIEUX "
+        },
+        {
+            "code": "06188860",
+            "libelle": "SOUPIE A PINET "
+        },
+        {
+            "code": "06188920",
+            "libelle": "VENE A POUSSAN 1"
+        },
+        {
+            "code": "06188925",
+            "libelle": "VENE A POUSSAN 2"
+        },
+        {
+            "code": "06188850",
+            "libelle": "FONTANILLES A MARSEILLAN "
+        }
+    ]
+}
