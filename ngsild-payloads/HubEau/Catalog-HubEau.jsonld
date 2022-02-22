@@ -3,16 +3,24 @@
     "type": "Catalog",
     "title": {
         "type": "Property",
-        "value": "HubEau"
+        "value": "API Hub'Eau"
+    },
+    "description": {
+        "type": "Property",
+        "value": "Service pérenne de la toile Eau France, Hub'Eau met à disposition des API Rest favorisant l'accès aux données du SIE"
     },
     "homepage": {
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/"
     },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:EauFrance"
+    },
     "hasDataset": [
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:hydrometry",
+            "object": "urn:ngsi-ld:Dataset:Hydrometry",
             "datasetId": "urn:ngsi-ld:Dataset:01",
             "themes": {
                 "type": "Property",
