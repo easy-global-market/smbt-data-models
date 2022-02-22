@@ -1,0 +1,57 @@
+{
+    "code_station": "04782000",
+    "libelle_station": "CANAL DE MARANS LA ROCHELLE À LA ROCHELLE",
+    "uri_station": "http://id.eaufrance.fr/STQ/04782000",
+    "durete": null,
+    "coordonnee_x": 380106.0,
+    "coordonnee_y": 6570510.0,
+    "code_projection": "26",
+    "libelle_projection": "RGF93 / Lambert 93",
+    "longitude": -1.147241678,
+    "latitude": 46.158788107,
+    "code_commune": "17300",
+    "libelle_commune": "LA ROCHELLE",
+    "code_departement": "17",
+    "libelle_departement": "CHARENTE-MARITIME",
+    "code_region": "75",
+    "libelle_region": "NOUVELLE-AQUITAINE",
+    "code_cours_eau": "N8--300G",
+    "nom_cours_eau": null,
+    "uri_cours_eau": "http://id.eaufrance.fr/CEA/N8--300G",
+    "code_masse_deau": "GR0925",
+    "code_eu_masse_deau": "FRGR0925",
+    "nom_masse_deau": "CANAUX DE MARANS",
+    "uri_masse_deau": "http://id.eaufrance.fr/MDO/GR0925",
+    "code_eu_sous_bassin": "FRG_LACV",
+    "nom_sous_bassin": "Loire aval et côtiers vendéens",
+    "code_bassin": "G",
+    "code_eu_bassin": "FRG",
+    "nom_bassin": "La Loire, les cours d'eau côtiers vendéens et bretons",
+    "uri_bassin": "http://id.eaufrance.fr/SEH/G",
+    "type_entite_hydro": "2",
+    "commentaire": null,
+    "date_creation": "1900-01-01",
+    "date_arret": null,
+    "date_maj_information": "2011-03-31",
+    "finalite": "Inconnue",
+    "localisation_precise": "AMONT ECLUSE VIEUX PORT",
+    "nature": "M",
+    "altitude_point_caracteristique": 0.0,
+    "point_kilometrique": 999654.0,
+    "premier_mois_annee_etiage": null,
+    "superficie_bassin_versant_reel": null,
+    "superficie_bassin_versant_topo": null,
+    "geometry": {
+        "type": "Point",
+        "crs": {
+            "type": "name",
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            }
+        },
+        "coordinates": [
+            -1.14724167760006,
+            46.1587881072281
+        ]
+    }
+}

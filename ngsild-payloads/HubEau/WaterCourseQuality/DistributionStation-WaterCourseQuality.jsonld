@@ -12,6 +12,42 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
+    "stationCode": {
+        "type": "Property",
+        "value": "06188870"
+    },
+    "name": {
+        "type": "Property",
+        "value": "SOUPIE A MARSEILLAN"
+    },
+    "uri": {
+        "type": "Property",
+        "value": "http://id.eaufrance.fr/STQ/06188870"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+               24.30623,
+               60.07966
+            ]
+        }
+    },
+    "nephelometricFormazinTurbidity": {
+        "type": "Property",
+        "value": 7.9,
+        "observedAt": "2011-02-21T08:20:00Z",
+        "unitCode": "NFU",
+        "parameterCode": {
+            "type": "Property",
+            "value": "1295"
+        },
+        "parameterName": {
+            "type": "Property",
+            "value": "Turbidité Formazine Néphélométrique"
+        }
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
