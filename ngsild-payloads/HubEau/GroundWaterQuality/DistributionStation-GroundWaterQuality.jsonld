@@ -14,11 +14,11 @@
     },
     "stationCode": {
         "type": "Property",
-        "object": "YX00176635"
+        "value": "YX00176635"
     },
     "themes": {
         "type": "Property",
-        "object": "GroundWaterQuality"
+        "value": "GroundWaterQuality"
     },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
