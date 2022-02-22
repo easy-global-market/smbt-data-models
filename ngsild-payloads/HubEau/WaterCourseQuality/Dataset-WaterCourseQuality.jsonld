@@ -25,6 +25,21 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
         }
     ],
+    "includedParameters": [
+        {
+            "type": "Property",
+            "value": "Turbidité Formazine Néphélométrique",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:NephelometricFormazinTurbidity",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1295
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1295"
+            }
+        }
+    ],
     "hasDistribution": [
         {
             "type": "Relationship",
