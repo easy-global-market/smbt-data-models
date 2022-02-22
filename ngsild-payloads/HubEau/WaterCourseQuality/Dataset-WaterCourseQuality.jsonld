@@ -16,12 +16,12 @@
     "theme": [
         {
           "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:Eau&Nutriments",
+          "object": "urn:ngsi-ld:Theme:EauNutriments",
           "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
         },
         {
           "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:Risques&Environnement",
+          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
         }
     ],
