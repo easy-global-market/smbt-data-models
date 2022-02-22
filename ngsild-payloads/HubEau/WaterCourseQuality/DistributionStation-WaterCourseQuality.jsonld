@@ -12,17 +12,29 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
-    "stationCode": {
+    "accessURL": {
         "type": "Property",
-        "value": "06188870"
+        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:WaterCourseQuality"
     },
-    "name": {
+    "title": {
         "type": "Property",
         "value": "SOUPIE A MARSEILLAN"
     },
-    "uri": {
+    "description": {
+        "type": "Property",
+        "value": "Station de qualité cours d'eau 06188870"
+    },
+    "temporalResolition": {
+        "type": "Property",
+        "value": "P1D"
+    },
+    "documentation": {
         "type": "Property",
         "value": "http://id.eaufrance.fr/STQ/06188870"
+    },
+    "stationCode": {
+        "type": "Property",
+        "value": "06188870"
     },
     "location": {
         "type": "GeoProperty",

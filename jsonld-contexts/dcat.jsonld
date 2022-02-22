@@ -12,6 +12,10 @@
         "hasService": "http://www.w3.org/ns/dcat#service",
         "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
-        "refCatalog": "http://www.w3.org/ns/dcat#catalog"
+        "refCatalog": "http://www.w3.org/ns/dcat#catalog",
+        "accessURL": "http://www.w3.org/ns/dcat#accessURL",
+        "description": "http://purl.org/dc/terms/description",
+        "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
+        "documentation": "http://xmlns.com/foaf/0.1/Document"
     }
 }
