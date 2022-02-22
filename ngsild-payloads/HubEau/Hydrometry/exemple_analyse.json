@@ -1,0 +1,18 @@
+{
+    "code_site": "Y2330010",
+    "code_station": "Y233001002",
+    "grandeur_hydro": "Q",
+    "date_debut_serie": "2022-02-21T00:00:01Z",
+    "date_fin_serie": "2022-02-21T23:55:00Z",
+    "statut_serie": 4,
+    "code_systeme_alti_serie": 31,
+    "date_obs": "2022-02-21T23:55:00Z",
+    "resultat_obs": 12600,
+    "code_methode_obs": 12,
+    "libelle_methode_obs": "Interpolation",
+    "code_qualification_obs": 12,
+    "libelle_qualification_obs": "Douteuse",
+    "continuite_obs_hydro": true,
+    "longitude": 3.44418881,
+    "latitude": 43.476126523
+  }

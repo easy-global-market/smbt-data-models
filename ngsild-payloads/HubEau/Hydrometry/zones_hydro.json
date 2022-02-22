@@ -1,0 +1,40 @@
+{
+    "ZoneHydro": [
+        {
+            "code": "Y313",
+            "libelle": "Ruisseau du Coulazou"
+        },
+        {
+            "code": "Y303",
+            "libelle": "C\u00f4tiers de la V\u00e8ne \u00e0 la Mosson"
+        },
+        {
+            "code": "Y233",
+            "libelle": "L'H\u00e9rault de la Boyne \u00e0 la Peyne"
+        },
+        {
+            "code": "Y300",
+            "libelle": "C\u00f4tiers de L'H\u00e9rault au ruisseau de N\u00e8gue-Vaques inclus"
+        },
+        {
+            "code": "Y231",
+            "libelle": "L'H\u00e9rault du ruisseau de Rouvi\u00e8ges inclus \u00e0 la Boyne"
+        },
+        {
+            "code": "Y235",
+            "libelle": "L'H\u00e9rault de la Peyne \u00e0 la Thongue"
+        },
+        {
+            "code": "Y301",
+            "libelle": "C\u00f4tiers du ruisseau de N\u00e8gue-Vaques \u00e0 la V\u00e8ne"
+        },
+        {
+            "code": "Y237",
+            "libelle": "L'H\u00e9rault de la Thongue \u00e0 la mer M\u00e9diterran\u00e9e"
+        },
+        {
+            "code": "Y302",
+            "libelle": "L'\u00e9tang de Thau et la V\u00e8ne"
+        }
+    ]
+}
