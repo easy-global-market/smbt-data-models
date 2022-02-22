@@ -1,6 +1,22 @@
 {
     "id": "urn:ngsi-ld:DataSet:WaterCourseQuality",
     "type": "Dataset",
+    "description": {
+        "type": "Property",
+        "value": "Données de l'API 'Qualité des cours d'eau' issues de la base Naïades"
+    },
+    "title": {
+        "type": "Property",
+        "value": "Qualité des cours d'eau"
+    },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Naïades"
+    },
+    "theme": {
+        "type": "Property",
+        "value": ["Eau & Nutriments", "Risques climatiques"]
+    },
     "hasDistribution": [
         {
             "type": "Relationship",

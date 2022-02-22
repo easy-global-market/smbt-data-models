@@ -1,21 +1,21 @@
 {
     "@context": {
+        "accessURL": "http://www.w3.org/ns/dcat#accessURL",
         "Catalog": "http://www.w3.org/ns/dcat#Catalog",
-        "Dataset": "http://www.w3.org/ns/dcat#Dataset",
         "DataService": "http://www.w3.org/ns/dcat#DataService",
-
-        "title": "http://purl.org/dc/terms/title",
-        "homepage": "http://xmlns.com/foaf/0.1/homepage",
-        "themes": "http://www.w3.org/ns/dcat#themes",
+        "Dataset": "http://www.w3.org/ns/dcat#Dataset",
+        "description": "http://purl.org/dc/terms/description",
+        "documentation": "http://xmlns.com/foaf/0.1/Document",
+        "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
         "hasDataset": "http://www.w3.org/ns/dcat#dataset",
         "hasDistribution": "http://www.w3.org/ns/dcat#distribution",
         "hasService": "http://www.w3.org/ns/dcat#service",
-        "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
-        "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
+        "homepage": "http://xmlns.com/foaf/0.1/homepage",
+        "isPublishedBy": "http://purl.org/dc/terms/publisher",
         "refCatalog": "http://www.w3.org/ns/dcat#catalog",
-        "accessURL": "http://www.w3.org/ns/dcat#accessURL",
-        "description": "http://purl.org/dc/terms/description",
+        "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
         "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
-        "documentation": "http://xmlns.com/foaf/0.1/Document"
+        "theme": "http://www.w3.org/ns/dcat#theme",
+        "title": "http://purl.org/dc/terms/title"
     }
 }
