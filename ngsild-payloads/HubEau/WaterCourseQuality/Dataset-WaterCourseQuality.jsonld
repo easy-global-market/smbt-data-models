@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
     },
-    "isContainedIn": [
+    "theme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:Eau&Nutriments",
