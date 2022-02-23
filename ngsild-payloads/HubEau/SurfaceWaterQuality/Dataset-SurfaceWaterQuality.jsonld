@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:DataSet:WaterCourseQuality",
+    "id": "urn:ngsi-ld:DataSet:SurfaceWaterQuality",
     "type": "Dataset",
     "description": {
         "type": "Property",
@@ -43,22 +43,22 @@
     "hasDistribution": [
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:WaterCourseQuality:01",
+            "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:01",
             "datasetId": "urn:ngsi-ld:Dataset:01"
         },
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:WaterCourseQuality:02",
+            "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:02",
             "datasetId": "urn:ngsi-ld:Dataset:02"
         },
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:WaterCourseQuality:03",
+            "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:03",
             "datasetId": "urn:ngsi-ld:Dataset:03"
         },
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:WaterCourseQuality:04",
+            "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:04",
             "datasetId": "urn:ngsi-ld:Dataset:04"
         }
     ],

@@ -29,11 +29,11 @@
         },
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:WaterCourseQuality",
+            "object": "urn:ngsi-ld:Dataset:SurfaceWaterQuality",
             "datasetId": "urn:ngsi-ld:Dataset:02",
             "themes": {
                 "type": "Property",
-                "value": "WaterCourseQuality"
+                "value": "SurfaceWaterQuality"
             }
         },
         {
@@ -58,12 +58,12 @@
     "hasService": [
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:DataService:hydrometry",
+            "object": "urn:ngsi-ld:DataService:Hydrometry",
             "datasetId": "urn:ngsi-ld:Dataset:01"
         },
         {
             "type": "Relationship",
-            "object": "urn:ngsi-ld:DataService:WaterCourseQuality",
+            "object": "urn:ngsi-ld:DataService:SurfaceWaterQuality",
             "datasetId": "urn:ngsi-ld:Dataset:02"
         },
         {

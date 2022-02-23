@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:DataService:Hydrometry",
+    "id": "urn:ngsi-ld:DataService:SurfaceWaterQualitry",
     "type": "DataService",
     "endpointURL": {
         "type": "Property",

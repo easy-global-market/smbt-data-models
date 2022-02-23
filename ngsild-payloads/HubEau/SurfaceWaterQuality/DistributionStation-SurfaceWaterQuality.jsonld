@@ -1,12 +1,12 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Station:WaterCourseQuality",
+    "id": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality",
     "type": [
         "Distribution",
         "Station"
     ],
     "servesDataset": {
         "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:WaterCourseQuality"
+        "object": "urn:ngsi-ld:Dataset:SurfaceWaterQuality"
     },
     "refCatalog": {
         "type": "Relationship",
@@ -14,7 +14,7 @@
     },
     "accessURL": {
         "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:WaterCourseQuality"
+        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality"
     },
     "title": {
         "type": "Property",
