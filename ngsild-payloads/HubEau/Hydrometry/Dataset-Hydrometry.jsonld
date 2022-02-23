@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:SCHAPI"
     },
-    "theme": [
+    "hasTheme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",
@@ -48,6 +48,6 @@
         }
     ],
     "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld"
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
 }
