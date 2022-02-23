@@ -16,10 +16,13 @@
         "type": "Property",
         "value": "YX00176635"
     },
-    "themes": {
-        "type": "Property",
-        "value": "GroundWaterQuality"
-    },
+    "theme": [
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:EauNutriments",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
+        }
+    ],
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
