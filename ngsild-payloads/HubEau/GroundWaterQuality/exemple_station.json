@@ -1,0 +1,67 @@
+{
+    "altitude": "14.0",
+    "bassin_dce": "Le Rhône et les cours d'eau côtiers méditerranéens",
+    "bss_id": "BSS002GUHA",
+    "circonscriptions_administrative_bassin": [
+        "Rhône-Méditerranée"
+    ],
+    "code_bss": "09915X0254/MAU23",
+    "code_caracteristique_aquifere": null,
+    "code_etat_pe": 0,
+    "code_insee": "34154",
+    "code_mode_gisement": null,
+    "code_nature_pe": 6,
+    "codes_entite_hg_bdlisa": null,
+    "codes_masse_eau_edl": null,
+    "codes_masse_eau_rap": null,
+    "codes_reseau": [
+        "0600000281"
+    ],
+    "commentaire_pe": null,
+    "date_debut_mesure": "2013-03-05",
+    "date_fin_mesure": "2013-12-10",
+    "geometry": {
+        "coordinates": [
+            4.011498,
+            43.630248
+        ],
+        "crs": {
+            "properties": {
+                "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+            },
+            "type": "name"
+        },
+        "type": "Point"
+    },
+    "latitude": 43.630248,
+    "libelle_pe": null,
+    "longitude": 4.011498,
+    "nom_caracteristique_aquifere": null,
+    "nom_commune": "Mauguio",
+    "nom_departement": "Hérault",
+    "nom_etat_pe": "Etat Inconnu",
+    "nom_mode_gisement": null,
+    "nom_nature_pe": "Forage",
+    "nom_region": "Occitanie",
+    "noms_entite_hg_bdlisa": null,
+    "noms_masse_eau_edl": null,
+    "noms_masse_eau_rap": null,
+    "noms_reseau": [
+        "Réseau de suivi de la qualité des eaux souterraines du Pays de l'Or Agglomération"
+    ],
+    "num_departement": "34",
+    "precision_coordonnees": null,
+    "profondeur_investigation": 7.73,
+    "uri_caracteristique_aquifere": null,
+    "uri_etat_pe": "http://id.eaufrance.fr/NSA/146#0",
+    "uri_mode_gisement": null,
+    "uri_nature_pe": "http://id.eaufrance.fr/NSA/149#6",
+    "uris_reseau": [
+        "http://id.eaufrance.fr/DC/0600000281"
+    ],
+    "urn_bassin_dce": "http://www.sandre.eaufrance.fr/geo/BassinDCE/FRD",
+    "urn_bss": "http://services.ades.eaufrance.fr/pointeau/BSS002GUHA",
+    "urns_bdlisa": [],
+    "urns_masse_eau_edl": [],
+    "urns_masse_eau_rap": []
+}
