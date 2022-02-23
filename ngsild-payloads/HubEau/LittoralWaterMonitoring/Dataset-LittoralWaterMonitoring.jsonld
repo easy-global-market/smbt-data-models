@@ -1,6 +1,45 @@
 {
     "id": "urn:ngsi-ld:DataSet:LittoralWaterMonitoring",
     "type": "Dataset",
+    "description": {
+        "type": "Property",
+        "value": "L'API Surveillance des eaux littorales diffuse les données gérées et valorisées par l'Institut français de recherche pour l'exploitation de la mer (IFREMER) à travers le système d'information QUADRIGE."
+    },
+    "title": {
+        "type": "Property",
+        "value": "Surveillance des eaux littorales"
+    },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Ifremer"
+    },
+    "theme": [
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:EauNutriments",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
+        },
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
+        }
+    ],
+    "includedParameters": [
+        {
+            "type": "Property",
+            "value": "Turbidité Formazine Néphélométrique",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:NephelometricFormazinTurbidity",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1295
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1295"
+            }
+        }
+    ],
     "hasDistribution": [
         {
             "type": "Relationship",

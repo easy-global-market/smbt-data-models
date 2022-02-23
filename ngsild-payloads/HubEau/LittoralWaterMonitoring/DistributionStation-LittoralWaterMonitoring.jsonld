@@ -12,6 +12,42 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
+    "accessURL": {
+        "type": "Property",
+        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring"
+    },
+    "title": {
+        "type": "Property",
+        "value": "018-P-069 - Bréville"
+    },
+    "temporalResolution": {
+        "type": "Property",
+        "value": "P1D"
+    },
+    "stationCode": {
+        "type": "Property",
+        "value": "9021101"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+               24.30623,
+               60.07966
+            ]
+        }
+    },
+    "benzoFluoranthene": {
+        "type": "Property",
+        "value": 0.34,
+        "observedAt": "2020-06-03T00:00:00Z",
+        "unitCode": "J33",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1733"
+        }
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
