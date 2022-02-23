@@ -21,38 +21,22 @@
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:Hydrometry",
-            "datasetId": "urn:ngsi-ld:Dataset:01",
-            "themes": {
-                "type": "Property",
-                "value": "hydrometry"
-            }
+            "datasetId": "urn:ngsi-ld:Dataset:01"
         },
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:SurfaceWaterQuality",
-            "datasetId": "urn:ngsi-ld:Dataset:02",
-            "themes": {
-                "type": "Property",
-                "value": "SurfaceWaterQuality"
-            }
+            "datasetId": "urn:ngsi-ld:Dataset:02"
         },
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:LittoralWaterMonitoring",
-            "datasetId": "urn:ngsi-ld:Dataset:03",
-            "themes": {
-                "type": "Property",
-                "value": "LittoralWaterMonitoring"
-            }
+            "datasetId": "urn:ngsi-ld:Dataset:03"
         },
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:GroundWaterQuality",
-            "datasetId": "urn:ngsi-ld:Dataset:04",
-            "themes": {
-                "type": "Property",
-                "value": "GroundWaterQuality"
-            }
+            "datasetId": "urn:ngsi-ld:Dataset:04"
         }
     ],
     "hasService": [

@@ -16,7 +16,7 @@
         "type": "Property",
         "value": "YX00176635"
     },
-    "theme": [
+    "hasTheme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",

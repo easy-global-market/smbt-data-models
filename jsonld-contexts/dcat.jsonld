@@ -15,7 +15,7 @@
         "refCatalog": "http://www.w3.org/ns/dcat#catalog",
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
         "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
-        "theme": "http://www.w3.org/ns/dcat#theme",
+        "hasTheme": "http://www.w3.org/ns/dcat#theme",
         "title": "http://purl.org/dc/terms/title"
     }
 }
