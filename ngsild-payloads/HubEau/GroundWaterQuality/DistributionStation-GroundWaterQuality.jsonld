@@ -16,13 +16,6 @@
         "type": "Property",
         "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:GroundWaterQuality"
     },
-    "hasTheme": [
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:EauNutriments",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
-        }
-    ],
     "title": {
         "type": "Property",
         "value": "Station de mesure BSS002GQYZ"
