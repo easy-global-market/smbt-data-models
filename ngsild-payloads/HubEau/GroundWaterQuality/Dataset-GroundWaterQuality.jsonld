@@ -13,6 +13,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:BRGM"
     },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://hubeau.eaufrance.fr/page/api-qualite-nappes"
+    },
     "hasTheme": [
         {
           "type": "Relationship",
@@ -32,6 +36,10 @@
             "documentation": {
                 "type": "Property",
                 "value": "https://id.eaufrance.fr/par/1689"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "piezometricDepth"
             }
         }
     ],

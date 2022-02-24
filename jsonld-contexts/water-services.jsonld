@@ -1,9 +1,10 @@
 {
     "@context": {
-        "includedParameter": "https://smartdatamodels.org/includedParameter",
+        "includedParameters": "https://smartdatamodels.org/includedParameters",
         "sandreCode": "https://smartdatamodels.org/sandreCode",
         "stationCode": "https://smartdatamodels.org/stationCode",
         "siteCode": "https://smartdatamodels.org/siteCode",
+        "propertyName": "https://smartdatamodels.org/propertyName",
         "Theme": "https://smartdatamodels.org/Theme"
     }
 }

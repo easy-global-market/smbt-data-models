@@ -13,6 +13,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:SCHAPI"
     },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
+    },
     "hasTheme": [
         {
           "type": "Relationship",

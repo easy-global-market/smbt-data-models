@@ -13,6 +13,10 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
     },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://hubeau.eaufrance.fr/page/api-qualite-cours-deau"
+    },
     "hasTheme": [
         {
           "type": "Relationship",
@@ -37,6 +41,10 @@
             "documentation": {
                 "type": "Property",
                 "value": "https://id.eaufrance.fr/par/1295"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "nephelometricFormazinTurbidity"
             }
         }
     ],

@@ -11,6 +11,7 @@
         "hasDistribution": "http://www.w3.org/ns/dcat#distribution",
         "hasService": "http://www.w3.org/ns/dcat#service",
         "homepage": "http://xmlns.com/foaf/0.1/homepage",
+        "landingPage": "http://www.w3.org/ns/dcat#landingPage",
         "isPublishedBy": "http://purl.org/dc/terms/publisher",
         "refCatalog": "http://www.w3.org/ns/dcat#catalog",
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
