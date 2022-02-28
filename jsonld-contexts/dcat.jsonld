@@ -17,6 +17,7 @@
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
         "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
         "hasTheme": "http://www.w3.org/ns/dcat#theme",
-        "title": "http://purl.org/dc/terms/title"
+        "title": "http://purl.org/dc/terms/title",
+        "hasLogo" : "http://xmlns.com/foaf/0.1/logo"
     }
 }
