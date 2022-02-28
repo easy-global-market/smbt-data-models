@@ -10,6 +10,6 @@
       "value": "Compléter la connaissance sur les apports en nutriments et en eau"
   },
   "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld"
+      "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
   ]
 }
