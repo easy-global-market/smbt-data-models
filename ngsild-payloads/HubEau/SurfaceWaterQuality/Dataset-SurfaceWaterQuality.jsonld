@@ -1,17 +1,21 @@
 {
     "id": "urn:ngsi-ld:DataSet:SurfaceWaterQuality",
     "type": "Dataset",
-    "description": {
+    "dcDescription": {
         "type": "Property",
         "value": "Données de l'API 'Qualité des cours d'eau' issues de la base Naïades"
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "Qualité des cours d'eau"
     },
     "isPublishedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
+    },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
     },
     "landingPage": {
         "type": "Property",
