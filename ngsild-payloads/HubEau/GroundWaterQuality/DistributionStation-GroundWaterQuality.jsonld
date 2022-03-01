@@ -8,15 +8,11 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Dataset:GroundWaterQuality"
     },
-    "refCatalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:HubEau"
-    },
     "accessURL": {
         "type": "Property",
         "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:GroundWaterQuality"
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "Station de mesure BSS002GQYZ"
     },
