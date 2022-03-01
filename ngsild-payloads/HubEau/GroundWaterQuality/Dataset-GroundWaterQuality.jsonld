@@ -1,11 +1,11 @@
 {
     "id": "urn:ngsi-ld:DataSet:GroundWaterQuality",
     "type": "Dataset",
-    "description": {
+    "dcDescription": {
         "type": "Property",
         "value": "L'API 'Qualité des nappes d'eau souterraine' permet d'accéder aux données de qualité physico-chimique des nappes d'eau souterraine françaises, issues de la banque nationale d'Accès aux Données sur les Eaux Souterraines ADES"
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "Qualité des nappes d'eau souterraine"
     },
@@ -24,6 +24,10 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
         }
     ],
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
+    },
     "includedParameters": [
         {
             "type": "Property",
