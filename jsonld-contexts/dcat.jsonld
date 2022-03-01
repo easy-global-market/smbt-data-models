@@ -4,7 +4,7 @@
         "Catalog": "http://www.w3.org/ns/dcat#Catalog",
         "DataService": "http://www.w3.org/ns/dcat#DataService",
         "Dataset": "http://www.w3.org/ns/dcat#Dataset",
-        "description": "http://purl.org/dc/terms/description",
+        "dcDescription": "http://purl.org/dc/terms/description",
         "documentation": "http://xmlns.com/foaf/0.1/Document",
         "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",
         "hasDataset": "http://www.w3.org/ns/dcat#dataset",
@@ -17,7 +17,7 @@
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
         "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
         "hasTheme": "http://www.w3.org/ns/dcat#theme",
-        "title": "http://purl.org/dc/terms/title",
+        "dcTitle": "http://purl.org/dc/terms/title",
         "hasLogo" : "http://xmlns.com/foaf/0.1/logo"
     }
 }
