@@ -8,15 +8,11 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Dataset:LittoralWaterMonitoring"
     },
-    "refCatalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:HubEau"
-    },
     "accessURL": {
         "type": "Property",
         "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring"
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "018-P-069 - Bréville"
     },
