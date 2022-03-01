@@ -1,11 +1,11 @@
 {
     "id": "urn:ngsi-ld:Catalog:HubEau",
     "type": "Catalog",
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "API Hub'Eau"
     },
-    "description": {
+    "dcDescription": {
         "type": "Property",
         "value": "Service pérenne de la toile Eau France, Hub'Eau met à disposition des API Rest favorisant l'accès aux données du SIE"
     },
