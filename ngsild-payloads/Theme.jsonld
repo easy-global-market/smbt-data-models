@@ -1,11 +1,11 @@
 {
   "id": "urn:ngsi-ld:Theme:EauNutriments",
   "type": "Theme",
-  "title": {
+  "dcTtitle": {
       "type": "Property",
       "value": "Eau & Nutriments"
   },
-  "description": {
+  "dcDescription": {
       "type": "Property",
       "value": "Compléter la connaissance sur les apports en nutriments et en eau"
   },

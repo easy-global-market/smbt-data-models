@@ -1,17 +1,21 @@
 {
     "id": "urn:ngsi-ld:DataSet:LittoralWaterMonitoring",
     "type": "Dataset",
-    "description": {
+    "dcDescription": {
         "type": "Property",
         "value": "L'API Surveillance des eaux littorales diffuse les données gérées et valorisées par l'Institut français de recherche pour l'exploitation de la mer (IFREMER) à travers le système d'information QUADRIGE."
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "Surveillance des eaux littorales"
     },
     "isPublishedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Ifremer"
+    },
+    "refCatalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:HubEau"
     },
     "landingPage": {
         "type": "Property",

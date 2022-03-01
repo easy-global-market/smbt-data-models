@@ -8,19 +8,15 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Dataset:Hydrometry"
     },
-    "refCatalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:HubEau"
-    },
     "accessURL": {
         "type": "Property",
         "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Hydrometry"
     },
-    "title": {
+    "dcTitle": {
         "type": "Property",
         "value": "L'Hérault à Montagnac"
     },
-    "description": {
+    "dcDescription": {
         "type": "Property",
         "value": "Station hydrométriques Y233001001"
     },
