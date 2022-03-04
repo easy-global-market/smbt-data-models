@@ -16,7 +16,7 @@
         "refCatalog": "http://www.w3.org/ns/dcat#catalog",
         "servesDataset": "http://www.w3.org/ns/dcat#servesDataset",
         "temporalResolution": "http://www.w3.org/ns/dcat#temporalResolution",
-        "hasTheme": "http://www.w3.org/ns/dcat#theme",
+        "theme": "http://www.w3.org/ns/dcat#theme",
         "dcTitle": "http://purl.org/dc/terms/title",
         "hasLogo" : "http://xmlns.com/foaf/0.1/logo"
     }
