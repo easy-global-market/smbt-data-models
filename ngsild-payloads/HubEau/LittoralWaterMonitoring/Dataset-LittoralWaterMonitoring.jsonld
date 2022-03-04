@@ -9,7 +9,7 @@
         "type": "Property",
         "value": "Surveillance des eaux littorales"
     },
-    "isPublishedBy": {
+    "publisher": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Ifremer"
     },
@@ -52,7 +52,7 @@
             }
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring:01",
