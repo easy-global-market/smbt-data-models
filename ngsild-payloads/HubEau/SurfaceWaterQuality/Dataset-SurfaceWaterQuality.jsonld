@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
     },
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
