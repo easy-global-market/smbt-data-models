@@ -24,7 +24,7 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
         }
     ],
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
