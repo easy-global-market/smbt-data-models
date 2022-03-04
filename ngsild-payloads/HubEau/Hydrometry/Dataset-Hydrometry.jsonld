@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:SCHAPI"
     },
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
