@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:DataSet:GroundWaterQuality",
+    "id": "urn:ngsi-ld:Dataset:GroundWaterQuality",
     "type": "Dataset",
     "dcDescription": {
         "type": "Property",
