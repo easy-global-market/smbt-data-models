@@ -17,7 +17,7 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/page/api-qualite-nappes"
     },
-    "hasTheme": [
+    "theme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",
