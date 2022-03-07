@@ -52,7 +52,7 @@
             }
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:01",
