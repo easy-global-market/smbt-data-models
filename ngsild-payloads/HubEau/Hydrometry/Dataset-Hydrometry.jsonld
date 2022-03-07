@@ -33,7 +33,7 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:01",
