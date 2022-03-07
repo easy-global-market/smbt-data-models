@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:SCHAPI"
     },
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
@@ -21,7 +21,7 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
     },
-    "hasTheme": [
+    "theme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",
@@ -33,7 +33,7 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:01",

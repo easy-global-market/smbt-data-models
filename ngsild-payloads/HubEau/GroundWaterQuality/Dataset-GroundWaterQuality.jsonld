@@ -17,14 +17,14 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/page/api-qualite-nappes"
     },
-    "hasTheme": [
+    "theme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",
           "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
         }
     ],
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
@@ -47,7 +47,7 @@
             }
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:GroundWaterQuality:01",

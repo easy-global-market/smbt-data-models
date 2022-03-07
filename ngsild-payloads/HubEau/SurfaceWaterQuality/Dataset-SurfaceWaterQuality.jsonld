@@ -13,7 +13,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:Naïades"
     },
-    "refCatalog": {
+    "catalog": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:HubEau"
     },
@@ -21,7 +21,7 @@
         "type": "Property",
         "value": "https://hubeau.eaufrance.fr/page/api-qualite-cours-deau"
     },
-    "hasTheme": [
+    "theme": [
         {
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:EauNutriments",
@@ -52,7 +52,7 @@
             }
         }
     ],
-    "hasDistribution": [
+    "distribution": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Distribution:Station:SurfaceWaterQuality:01",

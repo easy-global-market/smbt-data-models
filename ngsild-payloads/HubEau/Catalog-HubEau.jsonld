@@ -17,7 +17,7 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:EauFrance"
     },
-    "hasDataset": [
+    "dataset": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:Hydrometry",
@@ -39,7 +39,7 @@
             "datasetId": "urn:ngsi-ld:Dataset:04"
         }
     ],
-    "hasService": [
+    "service": [
         {
             "type": "Relationship",
             "object": "urn:ngsi-ld:DataService:Hydrometry",
