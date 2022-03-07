@@ -9,7 +9,7 @@
         "type": "Property",
         "value": "Qualité des nappes d'eau souterraine"
     },
-    "publisher": {
+    "isPublishedBy": {
         "type": "Relationship",
         "object": "urn:ngsi-ld:Agent:BRGM"
     },
