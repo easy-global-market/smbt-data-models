@@ -7,7 +7,6 @@
         "Dataset": "http://www.w3.org/ns/dcat#Dataset",
         "dcDescription": "http://purl.org/dc/terms/description",
         "dcTitle": "http://purl.org/dc/terms/title",
-        "distribution": "http://www.w3.org/ns/dcat#distribution",
         "Distribution": "http://www.w3.org/ns/dcat#Distribution",
         "documentation": "http://xmlns.com/foaf/0.1/Document",
         "endpointURL": "http://www.w3.org/ns/dcat#endpointURL",

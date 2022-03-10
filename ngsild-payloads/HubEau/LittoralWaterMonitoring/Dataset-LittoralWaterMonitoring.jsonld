@@ -52,28 +52,6 @@
             }
         }
     ],
-    "distribution": [
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring:01",
-            "datasetId": "urn:ngsi-ld:Dataset:01"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring:02",
-            "datasetId": "urn:ngsi-ld:Dataset:02"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring:03",
-            "datasetId": "urn:ngsi-ld:Dataset:03"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:LittoralWaterMonitoring:04",
-            "datasetId": "urn:ngsi-ld:Dataset:04"
-        }
-    ],
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
