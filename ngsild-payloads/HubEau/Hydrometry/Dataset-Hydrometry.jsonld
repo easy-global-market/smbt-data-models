@@ -33,28 +33,6 @@
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
         }
     ],
-    "distribution": [
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:01",
-            "datasetId": "urn:ngsi-ld:Dataset:01"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:02",
-            "datasetId": "urn:ngsi-ld:Dataset:02"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:03",
-            "datasetId": "urn:ngsi-ld:Dataset:03"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Distribution:Station:Hydrometry:04",
-            "datasetId": "urn:ngsi-ld:Dataset:04"
-        }
-    ],
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
