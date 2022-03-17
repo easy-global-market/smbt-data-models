@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "column": "https://smart-data-models.org/column",
+        "concessionNumber": "https://smart-data-models.org/concessionNumber",
+        "Corporation": "https://schema.org/Corporation",
+        "familyName": "https://schema.org/familyName",
+        "givenName": "https://schema.org/givenName",
+        "ownerNumber": "https://smart-data-models.org/ownerNumber",
+        "parcel": "https://smart-data-models.org/parcel",
+        "Person": "https://schema.org/Person",
+        "Place": "https://schema.org/Place",
+        "ShellfishTable": "https://schema.org/ShellfishTable",
+        "structure": "https://smart-data-models.org/structure"
+    }
+}
