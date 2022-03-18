@@ -1,6 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/shellfish-table.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/water-observed-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/water-services.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
