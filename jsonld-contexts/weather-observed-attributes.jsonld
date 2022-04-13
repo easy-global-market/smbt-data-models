@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "airTemperature": "https://smartdatamodels.org/airTemperature",
+        "pressure": "https://smartdatamodels.org/pressure",
+        "humidity": "https://smartdatamodels.org/humidity",
+        "precipitation": "https://smartdatamodels.org/precipitation",
+        "seaLevel": "https://smartdatamodels.org/seaLevel",
+        "waterTemperature": "https://smartdatamodels.org/waterTemperature",
+        "windDirection": "https://smartdatamodels.org/windDirection",
+        "windSpeed": "https://smartdatamodels.org/windSpeed"
+    }
+}
