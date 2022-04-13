@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "chlorophyll": "https://smartdatamodels.org/chlorophyll",
+        "nitrate": "https://smartdatamodels.org/nitrate",
+        "oxygen": "https://smartdatamodels.org/oxygen",
+        "ph": "https://smartdatamodels.org/ph",
+        "salinity": "https://smartdatamodels.org/salinity",
+        "phytoplankton": "https://smartdatamodels.org/phytoplankton"
+    }
+}

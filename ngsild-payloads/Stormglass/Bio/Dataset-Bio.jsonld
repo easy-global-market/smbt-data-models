@@ -1,0 +1,96 @@
+{
+    "id": "urn:ngsi-ld:Dataset:Stormglass:Bio",
+    "type": "Dataset",
+    "dcDescription": {
+        "type": "Property",
+        "value": "L'API Bio permet de récupérer des données biologiques en un point précis"
+    },
+    "dcTitle": {
+        "type": "Property",
+        "value": "Données biologiques"
+    },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:StormGlassAB"
+    },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://docs.stormglass.io/?_gl=1*wixh4r*_ga*MTcyMDIzNzExNS4xNjQ4MDUxMTg0*_ga_79XDW52F27*MTY0OTg1MzY2Ni4zLjAuMTY0OTg1MzY2Ni4w#/bio"
+    },
+    "theme": [
+        {
+          "type": "Relationship",
+          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+          "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
+        }
+    ],
+    "catalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:Stormglass"
+    },
+    "includedParameters": [
+        {
+            "type": "Property",
+            "value": "Concentration massique de chlorophylle A dans l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Chlorophyll",
+            "unitCode": "GP",
+            "propertyName": {
+                "type": "Property",
+                "value": "chlorophyll"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Concentration molaire de nitrate dans l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Nitrate",
+            "unitCode": "C36",
+            "propertyName": {
+                "type": "Property",
+                "value": "nitrate"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Concentration molaire de l'oxygène dissous dans l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Oxygen",
+            "unitCode": "C36",
+            "propertyName": {
+                "type": "Property",
+                "value": "oxygen"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "pH de l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Ph",
+            "unitCode": "C62",
+            "propertyName": {
+                "type": "Property",
+                "value": "ph"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Salinité de l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Salinity",
+            "unitCode": "NX",
+            "propertyName": {
+                "type": "Property",
+                "value": "salinity"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Concentration molaire de phytoplancton exprimée en carbone dans l'eau de mer",
+            "datasetId": "urn:ngsi-ld:Dataset:Phytoplankton",
+            "unitCode": "C36",
+            "propertyName": {
+                "type": "Property",
+                "value": "phytoplankton"
+            }
+        }
+    ],
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+    ]
+}
