@@ -6,6 +6,7 @@
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/water-services.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/weather-observed-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/solar-observed-attributes.jsonld",
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/bio-observed-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/ngsild-api-data-models/master/authorization/jsonld-contexts/authorization.jsonld",
         "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld"
     ]
