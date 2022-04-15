@@ -33,19 +33,19 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },{
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },{
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:Smhi"
+            "datasetId": "urn:ngsi-ld:Dataset:smhi"
         }
     ],
     "pressure": [
@@ -54,25 +54,25 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },{
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },{
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:Yr"
+            "datasetId": "urn:ngsi-ld:Dataset:yr"
         },{
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:Smhi"
+            "datasetId": "urn:ngsi-ld:Dataset:smhi"
         }
     ],
     "humidiy": [
@@ -81,21 +81,21 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:Smhi"
+            "datasetId": "urn:ngsi-ld:Dataset:smhi"
         }
     ],
     "precipitation": [
@@ -104,21 +104,21 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:Smhi"
+            "datasetId": "urn:ngsi-ld:Dataset:smhi"
         }
     ],
     "seaLevel": [
@@ -127,7 +127,7 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Meto"
+            "datasetId": "urn:ngsi-ld:Dataset:meto"
         }
     ],
     "waterTemperature": [
@@ -136,14 +136,14 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:Meto"
+            "datasetId": "urn:ngsi-ld:Dataset:meto"
         }
     ],
     "windDirection": [
@@ -152,35 +152,35 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:Icon"
+            "datasetId": "urn:ngsi-ld:Dataset:icon"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:Fmi"
+            "datasetId": "urn:ngsi-ld:Dataset:fmi"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:Yr"
+            "datasetId": "urn:ngsi-ld:Dataset:yr"
         }
     ],
     "windSpeed": [
@@ -189,35 +189,35 @@
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Icon"
+            "datasetId": "urn:ngsi-ld:Dataset:icon"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Noaa"
+            "datasetId": "urn:ngsi-ld:Dataset:noaa"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Dwd"
+            "datasetId": "urn:ngsi-ld:Dataset:dwd"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Fmi"
+            "datasetId": "urn:ngsi-ld:Dataset:fmi"
         },
         {
             "type": "Property",
             "value": 0,
             "observedAt": "1970-01-01T00:00:00Z",
             "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:Yr"
+            "datasetId": "urn:ngsi-ld:Dataset:yr"
         }
     ],
     "@context": [
