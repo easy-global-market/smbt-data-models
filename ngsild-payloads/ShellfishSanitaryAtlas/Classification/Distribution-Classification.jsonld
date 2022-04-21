@@ -1,0 +1,73 @@
+{
+    "id": "urn:ngsi-ld:Distribution:Zone:Classification",
+    "type": "Distribution",
+    "servesDataset": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Classification"
+    },
+    "accessURL": {
+        "type": "Property",
+        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Zone:Classification"
+    },
+    "dcTitle": {
+        "type": "Property",
+        "value": "Etang de Thau : Interieur des ports de Balaruc les Bains, Bouzigues, Meze-Ville, Meze-Taurus, Mourre Blanc, Marseillan-Ville"
+    },
+    "temporalResolution": {
+        "type": "Property",
+        "value": "P1M"
+    },
+    "documentation": {
+        "type": "Property",
+        "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP CLASSEMENT 2021signé_15-02-2021.pdf"
+    },
+    "gid": {
+        "type": "Property",
+        "value": "8800"
+    },
+    "nationalCode": {
+        "type": "Property",
+        "value": "34.42.09"
+    },
+    "status": {
+        "type": "Property",
+        "value": "Validé"
+    },
+    "regulationText": {
+        "type": "Property",
+        "value": "Arrêté du 4 février 2021 - Hérault"
+    },
+    "rankingType": {
+        "type": "Property",
+        "value": "1"
+    },
+    "gp1": {
+        "type": "Property",
+        "value": "I"
+    },
+    "gp2": {
+        "type": "Property",
+        "value": "I"
+    },
+    "gp3": {
+        "type": "Property",
+        "value": "I"
+    },
+    "location": {
+        "type": "GeoProperty",
+        "value": {
+            "type": "Point",
+            "coordinates": [
+                4.011498,
+                43.630248
+            ]
+        }
+    },
+    "lastModifiedAt": {
+        "type": "Property",
+        "value": "2014-10-03T00:00:00Z"
+    }
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+    ]
+}
