@@ -52,6 +52,96 @@
             "value": "1295"
         }
     },
+    "nitrite": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1339"
+        }
+    },
+    "nitrate": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1340"
+        }
+    },
+    "orthophosphate": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1433"
+        }
+    },
+    "nitrogenKjeldahl": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1319"
+        }
+    },
+    "ammonium": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1335"
+        }
+    },
+    "totalPhosphorus": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1350"
+        }
+    },
+    "dissolvedOxygen": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "M1",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1311"
+        }
+    },
+    "waterTemperature": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "CEL",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1301"
+        }
+    },
+    "conductivity": {
+        "type": "Property",
+        "value": 0,
+        "observedAt": "1970-01-01T00:00:00Z",
+        "unitCode": "G42",
+        "sandreCode": {
+            "type": "Property",
+            "value": "1303"
+        }
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]

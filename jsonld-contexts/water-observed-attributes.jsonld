@@ -1,6 +1,16 @@
 {
     "@context": {
         "flow": "https://smartdatamodels.org/flow",
-        "nephelometricFormazinTurbidity": "https://smartdatamodels.org/nephelometricFormazinTurbidity"
+        "nephelometricFormazinTurbidity": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
+        "benzoFluoranthene": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
+        "nitrite": "https://smartdatamodels.org/nitrite",
+        "nitrate": "https://smartdatamodels.org/nitrate",
+        "orthophosphate": "https://smartdatamodels.org/orthophosphate",
+        "nitrogenKjeldahl": "https://smartdatamodels.org/nitrogenKjeldahl",
+        "ammonium": "https://smartdatamodels.org/ammonium",
+        "totalPhosphorus": "https://smartdatamodels.org/totalPhosphorus",
+        "dissolvedOxygen": "https://smartdatamodels.org/dissolvedOxygen",
+        "waterTemperature": "https://smartdatamodels.org/waterTemperature",
+        "conductivity": "https://smartdatamodels.org/conductivity"
     }
 }
