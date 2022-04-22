@@ -4,12 +4,21 @@
         "concessionNumber": "https://smart-data-models.org/concessionNumber",
         "Corporation": "https://schema.org/Corporation",
         "familyName": "https://schema.org/familyName",
+        "gid": "https://schema.org/gid",
         "givenName": "https://schema.org/givenName",
+        "gp1": "https://schema.org/gp1",
+        "gp2": "https://schema.org/gp2",
+        "gp3": "https://schema.org/gp3",
+        "lastModifiedAt": "https://schema.org/lastModifiedAt",
+        "nationalCode": "https://schema.org/nationalCode",
         "ownerNumber": "https://smart-data-models.org/ownerNumber",
         "parcel": "https://smart-data-models.org/parcel",
         "Person": "https://schema.org/Person",
         "Place": "https://schema.org/Place",
+        "rankingType": "https://schema.org/rankingType",
+        "regulationText": "https://schema.org/regulationText",
         "ShellfishTable": "https://schema.org/ShellfishTable",
+        "status": "https://schema.org/status",
         "structure": "https://smart-data-models.org/structure"
     }
 }
