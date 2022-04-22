@@ -67,7 +67,7 @@
         },
         "species": {
             "type": "Property",
-            "value": ["gp1, gp2, gp3"]
+            "value": ["gp1", "gp2", "gp3"]
         },
         "specificSpecies": {
             "type": "Property",
