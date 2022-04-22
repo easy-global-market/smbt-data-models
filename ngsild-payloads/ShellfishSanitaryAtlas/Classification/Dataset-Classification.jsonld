@@ -28,6 +28,21 @@
         "type": "Relationship",
         "object": "urn:ngsi-ld:Catalog:ShellfishSanitaryAtlas"
     },
+    "includedParameters": [
+        {
+            "type": "Property",
+            "value": "Statut sanitaire",
+            "datasetId": "urn:ngsi-ld:Dataset:SanitaryStatus",
+            "documentation": {
+                "type": "Property",
+                "value": "http://www.atlas-sanitaire-coquillages.fr/statuts"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "sanitaryStatus"
+            }
+        }
+    ],
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
