@@ -53,6 +53,39 @@
         "type": "Property",
         "value": "I"
     },
+    "sanitaryStatus": {
+        "type": "Property",
+        "value": "Alerte en cours (P)",
+        "observedAt": "2022-03-17T00:00:00Z",
+        "comment": {
+            "type": "Property",
+            "value": "Arrêté préfectoral portant interdiction temporaire de la pêche, du ramassage, du transport, de la purification, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe  2 (palourdes ...) en provenance de la zone 11.03 'Etang des Ayguades et de Mateille'. Suite aux résultats d'analyses REMI  : contamination bactérienne. L'arrêté préfectoral du 31 mars 2022, suite aux résultats d'analyses REPHY concernant les toxines lipophyles à des taux inférieurs au seuil réglementaire, a levé l'interdiction concernant ce motif (DSP)."
+        },
+        "motive": {
+            "type": "Property",
+            "value": "Microbiologie"
+        },
+        "species": {
+            "type": "Property",
+            "value": ["gp1", "gp2", "gp3"]
+        },
+        "specificSpecies": {
+            "type": "Property",
+            "value": "G2 (palourdes, ...)"
+        },
+        "decreeTitle": {
+            "type": "Property",
+            "value": "Arrêté du 17/03/2022 - Hérault"
+        },
+        "decreeComment": {
+            "type": "Property",
+            "value": "Interdiction temporaire de la pêche, du ramassage, du transport, de la purifica­tion, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe 2 (palourdes ... ) ..."
+        },
+        "decreeFile": {
+            "type": "Property",
+            "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP-DDTM-SML-2022-076-001-zone11-03.pdf"
+        }
+    },
     "location": {
         "type": "GeoProperty",
         "value": {
