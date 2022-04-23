@@ -1,5 +1,5 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Zone:Classification",
+    "id": "urn:ngsi-ld:Distribution:Zone:34.42.09",
     "type": "Distribution",
     "servesDataset": {
         "type": "Relationship",

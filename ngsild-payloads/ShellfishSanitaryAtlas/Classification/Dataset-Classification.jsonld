@@ -1,10 +1,6 @@
 {
     "id": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Classification",
     "type": "Dataset",
-    "dcDescription": {
-        "type": "Property",
-        "value": "L'API Weather permet de récupérer des données météorologiques en un point précis"
-    },
     "dcTitle": {
         "type": "Property",
         "value": "Classement sanitaire de l'ensemble des zones professionnelles de production et de reparcage de coquillages vivants (zones d'élevage et de pêche professionnelle)"
@@ -22,7 +18,12 @@
           "type": "Relationship",
           "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
           "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
-        }
+        },
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+            "datasetId": "urn:ngsi-ld:Theme:PechesCulturesMarines"
+        }  
     ],
     "catalog": {
         "type": "Relationship",

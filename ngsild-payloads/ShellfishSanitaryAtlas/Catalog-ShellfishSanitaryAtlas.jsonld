@@ -22,11 +22,6 @@
             "type": "Relationship",
             "object": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Classification",
             "datasetId": "urn:ngsi-ld:Dataset:Classification"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Status",
-            "datasetId": "urn:ngsi-ld:Dataset:Status"
         }
     ],
     "@context": [
