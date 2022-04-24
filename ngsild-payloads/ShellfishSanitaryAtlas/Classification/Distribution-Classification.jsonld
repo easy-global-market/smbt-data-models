@@ -7,7 +7,7 @@
     },
     "accessURL": {
         "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Zone:Classification"
+        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Zone:34.42.09"
     },
     "dcTitle": {
         "type": "Property",
@@ -15,7 +15,7 @@
     },
     "temporalResolution": {
         "type": "Property",
-        "value": "P1M"
+        "value": "N/A"
     },
     "documentation": {
         "type": "Property",
@@ -99,7 +99,7 @@
     "lastModifiedAt": {
         "type": "Property",
         "value": "2014-10-03T00:00:00Z"
-    }
+    },
     "@context": [
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
     ]
