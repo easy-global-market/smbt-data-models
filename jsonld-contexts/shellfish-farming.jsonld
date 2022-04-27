@@ -27,6 +27,7 @@
         "species": "https://schema.org/species",
         "specificSpecies": "https://schema.org/specificSpecies",
         "status": "https://schema.org/status",
-        "structure": "https://smart-data-models.org/structure"
+        "structure": "https://smart-data-models.org/structure",
+        "legalName": "https://schema.org/legalName"
     }
 }
