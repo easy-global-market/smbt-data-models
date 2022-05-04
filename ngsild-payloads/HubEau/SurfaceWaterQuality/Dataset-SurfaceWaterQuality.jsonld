@@ -37,7 +37,7 @@
         {
             "type": "Property",
             "value": "Turbidité Formazine Néphélométrique",
-            "datasetId": "urn:ngsi-ld:Dataset:Theme:NephelometricFormazinTurbidity",
+            "datasetId": "urn:ngsi-ld:Dataset:NephelometricFormazinTurbidity",
             "sandreCode": {
                 "type": "Property",
                 "value": 1295
@@ -49,6 +49,159 @@
             "propertyName": {
                 "type": "Property",
                 "value": "nephelometricFormazinTurbidity"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Nitrites",
+            "datasetId": "urn:ngsi-ld:Dataset:Nitrite",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1339
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1339"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "nitrite"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Nitrates",
+            "datasetId": "urn:ngsi-ld:Dataset:Nitrate",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1340
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1340"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "nitrate"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Orthophosphates (PO4)",
+            "datasetId": "urn:ngsi-ld:Dataset:Orthophosphate",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1433
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1433"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "orthophosphate"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Azote Kjeldahl",
+            "datasetId": "urn:ngsi-ld:Dataset:NitrogenKjeldahl",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1319
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1319"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "nitrogenKjeldahl"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Ammonium",
+            "datasetId": "urn:ngsi-ld:Dataset:Ammonium",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1335
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1335"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "ammonium"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Phosphore total",
+            "datasetId": "urn:ngsi-ld:Dataset:TotalPhosphorus",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1350
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1350"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "totalPhosphorus"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Oxygène dissous",
+            "datasetId": "urn:ngsi-ld:Dataset:DissolvedOxygen",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1311
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1311"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "dissolvedOxygen"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Température de l'eau",
+            "datasetId": "urn:ngsi-ld:Dataset:WaterTemperature",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1301
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1301"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "waterTemperature"
+            }
+        },
+        {
+            "type": "Property",
+            "value": "Conductivité à 25°C",
+            "datasetId": "urn:ngsi-ld:Dataset:Conductivity",
+            "sandreCode": {
+                "type": "Property",
+                "value": 1303
+            },
+            "documentation": {
+                "type": "Property",
+                "value": "https://id.eaufrance.fr/par/1303"
+            },
+            "propertyName": {
+                "type": "Property",
+                "value": "conductivity"
             }
         }
     ],

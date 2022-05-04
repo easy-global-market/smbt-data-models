@@ -2,7 +2,7 @@
     "@context": {
         "flow": "https://smartdatamodels.org/flow",
         "nephelometricFormazinTurbidity": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
-        "benzoFluoranthene": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
+        "benzoFluoranthene": "https://smartdatamodels.org/benzoFluoranthene",
         "nitrite": "https://smartdatamodels.org/nitrite",
         "nitrate": "https://smartdatamodels.org/nitrate",
         "orthophosphate": "https://smartdatamodels.org/orthophosphate",

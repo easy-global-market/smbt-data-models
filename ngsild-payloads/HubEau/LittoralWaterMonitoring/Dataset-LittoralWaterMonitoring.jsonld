@@ -36,19 +36,19 @@
     "includedParameters": [
         {
             "type": "Property",
-            "value": "Turbidité Formazine Néphélométrique",
-            "datasetId": "urn:ngsi-ld:Dataset:Theme:NephelometricFormazinTurbidity",
+            "value": "Benzo(j)fluoranthène",
+            "datasetId": "urn:ngsi-ld:Dataset:BenzoFluoranthene",
             "sandreCode": {
                 "type": "Property",
-                "value": 1295
+                "value": 1733
             },
             "documentation": {
                 "type": "Property",
-                "value": "https://id.eaufrance.fr/par/1295"
+                "value": "https://id.eaufrance.fr/par/1733"
             },
             "propertyName": {
                 "type": "Property",
-                "value": "nephelometricFormazinTurbidity"
+                "value": "benzoFluoranthene"
             }
         }
     ],
