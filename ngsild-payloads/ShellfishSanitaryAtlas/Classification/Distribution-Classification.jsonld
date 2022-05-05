@@ -1,106 +1,110 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Zone:34.42.09",
-    "type": "Distribution",
-    "servesDataset": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Classification"
+  "id": "urn:ngsi-ld:Distribution:Zone:34.42.09",
+  "type": "Distribution",
+  "servesDataset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Dataset:ShellfishSanitaryAtlas:Classification"
+  },
+  "accessURL": {
+    "type": "Property",
+    "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Zone:34.42.09"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Etang de Thau : Interieur des ports de Balaruc les Bains, Bouzigues, Meze-Ville, Meze-Taurus, Mourre Blanc, Marseillan-Ville"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "N/A"
+  },
+  "documentation": {
+    "type": "Property",
+    "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP CLASSEMENT 2021signé_15-02-2021.pdf"
+  },
+  "gid": {
+    "type": "Property",
+    "value": "8800"
+  },
+  "nationalCode": {
+    "type": "Property",
+    "value": "34.42.09"
+  },
+  "status": {
+    "type": "Property",
+    "value": "Validé"
+  },
+  "regulationText": {
+    "type": "Property",
+    "value": "Arrêté du 4 février 2021 - Hérault"
+  },
+  "rankingType": {
+    "type": "Property",
+    "value": "1"
+  },
+  "gp1": {
+    "type": "Property",
+    "value": "I"
+  },
+  "gp2": {
+    "type": "Property",
+    "value": "I"
+  },
+  "gp3": {
+    "type": "Property",
+    "value": "I"
+  },
+  "sanitaryStatus": {
+    "type": "Property",
+    "value": "Alerte en cours (P)",
+    "observedAt": "2022-03-17T00:00:00Z",
+    "comment": {
+      "type": "Property",
+      "value": "Arrêté préfectoral portant interdiction temporaire de la pêche, du ramassage, du transport, de la purification, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe  2 (palourdes ...) en provenance de la zone 11.03 'Etang des Ayguades et de Mateille'. Suite aux résultats d'analyses REMI  : contamination bactérienne. L'arrêté préfectoral du 31 mars 2022, suite aux résultats d'analyses REPHY concernant les toxines lipophyles à des taux inférieurs au seuil réglementaire, a levé l'interdiction concernant ce motif (DSP)."
     },
-    "accessURL": {
-        "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Zone:34.42.09"
+    "motive": {
+      "type": "Property",
+      "value": "Microbiologie"
     },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Etang de Thau : Interieur des ports de Balaruc les Bains, Bouzigues, Meze-Ville, Meze-Taurus, Mourre Blanc, Marseillan-Ville"
+    "species": {
+      "type": "Property",
+      "value": [
+        "gp1",
+        "gp2",
+        "gp3"
+      ]
     },
-    "temporalResolution": {
-        "type": "Property",
-        "value": "N/A"
+    "specificSpecies": {
+      "type": "Property",
+      "value": "G2 (palourdes, ...)"
     },
-    "documentation": {
-        "type": "Property",
-        "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP CLASSEMENT 2021signé_15-02-2021.pdf"
+    "decreeTitle": {
+      "type": "Property",
+      "value": "Arrêté du 17/03/2022 - Hérault"
     },
-    "gid": {
-        "type": "Property",
-        "value": "8800"
+    "decreeComment": {
+      "type": "Property",
+      "value": "Interdiction temporaire de la pêche, du ramassage, du transport, de la purifica­tion, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe 2 (palourdes ... ) ..."
     },
-    "nationalCode": {
-        "type": "Property",
-        "value": "34.42.09"
-    },
-    "status": {
-        "type": "Property",
-        "value": "Validé"
-    },
-    "regulationText": {
-        "type": "Property",
-        "value": "Arrêté du 4 février 2021 - Hérault"
-    },
-    "rankingType": {
-        "type": "Property",
-        "value": "1"
-    },
-    "gp1": {
-        "type": "Property",
-        "value": "I"
-    },
-    "gp2": {
-        "type": "Property",
-        "value": "I"
-    },
-    "gp3": {
-        "type": "Property",
-        "value": "I"
-    },
-    "sanitaryStatus": {
-        "type": "Property",
-        "value": "Alerte en cours (P)",
-        "observedAt": "2022-03-17T00:00:00Z",
-        "comment": {
-            "type": "Property",
-            "value": "Arrêté préfectoral portant interdiction temporaire de la pêche, du ramassage, du transport, de la purification, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe  2 (palourdes ...) en provenance de la zone 11.03 'Etang des Ayguades et de Mateille'. Suite aux résultats d'analyses REMI  : contamination bactérienne. L'arrêté préfectoral du 31 mars 2022, suite aux résultats d'analyses REPHY concernant les toxines lipophyles à des taux inférieurs au seuil réglementaire, a levé l'interdiction concernant ce motif (DSP)."
-        },
-        "motive": {
-            "type": "Property",
-            "value": "Microbiologie"
-        },
-        "species": {
-            "type": "Property",
-            "value": ["gp1", "gp2", "gp3"]
-        },
-        "specificSpecies": {
-            "type": "Property",
-            "value": "G2 (palourdes, ...)"
-        },
-        "decreeTitle": {
-            "type": "Property",
-            "value": "Arrêté du 17/03/2022 - Hérault"
-        },
-        "decreeComment": {
-            "type": "Property",
-            "value": "Interdiction temporaire de la pêche, du ramassage, du transport, de la purifica­tion, de l'expédition, du stockage, de la distribution, de la commercialisation et de la mise à la consommation humaine des coquillages du groupe 2 (palourdes ... ) ..."
-        },
-        "decreeFile": {
-            "type": "Property",
-            "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP-DDTM-SML-2022-076-001-zone11-03.pdf"
-        }
-    },
-    "location": {
-        "type": "GeoProperty",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                4.011498,
-                43.630248
-            ]
-        }
-    },
-    "lastModifiedAt": {
-        "type": "Property",
-        "value": "2014-10-03T00:00:00Z"
-    },
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+    "decreeFile": {
+      "type": "Property",
+      "value": "http://www.atlas-sanitaire-coquillages.fr/sites/default/files/arrete/AP-DDTM-SML-2022-076-001-zone11-03.pdf"
+    }
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        4.011498,
+        43.630248
+      ]
+    }
+  },
+  "lastModifiedAt": {
+    "type": "Property",
+    "value": "2014-10-03T00:00:00Z"
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

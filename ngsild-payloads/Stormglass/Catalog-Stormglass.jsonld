@@ -1,40 +1,40 @@
 {
-    "id": "urn:ngsi-ld:Catalog:Stormglass",
-    "type": "Catalog",
-    "dcTitle": {
-        "type": "Property",
-        "value": "API Stormglass"
+  "id": "urn:ngsi-ld:Catalog:Stormglass",
+  "type": "Catalog",
+  "title": {
+    "type": "Property",
+    "value": "API Stormglass"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Prévisions météorologiques et données historiques des institutions météorologiques les plus fiables au monde"
+  },
+  "homepage": {
+    "type": "Property",
+    "value": "https://stormglass.io/"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:StormGlassAB"
+  },
+  "dataset": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:Stormglass:Weather",
+      "datasetId": "urn:ngsi-ld:Dataset:Weather"
     },
-    "dcDescription": {
-        "type": "Property",
-        "value": "Prévisions météorologiques et données historiques des institutions météorologiques les plus fiables au monde"
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:Stormglass:Bio",
+      "datasetId": "urn:ngsi-ld:Dataset:Bio"
     },
-    "homepage": {
-        "type": "Property",
-        "value": "https://stormglass.io/"
-    },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:StormGlassAB"
-    },
-    "dataset": [
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:Stormglass:Weather",
-            "datasetId": "urn:ngsi-ld:Dataset:Weather"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:Stormglass:Bio",
-            "datasetId": "urn:ngsi-ld:Dataset:Bio"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:Stormglass:Solar",
-            "datasetId": "urn:ngsi-ld:Dataset:Solar"
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:Stormglass:Solar",
+      "datasetId": "urn:ngsi-ld:Dataset:Solar"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

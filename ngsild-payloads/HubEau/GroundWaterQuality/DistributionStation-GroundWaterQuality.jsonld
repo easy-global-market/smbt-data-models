@@ -1,54 +1,54 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Station:GroundWaterQuality",
-    "type": [
-        "Distribution",
-        "Station"
-    ],
-    "servesDataset": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:GroundWaterQuality"
-    },
-    "accessURL": {
-        "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:GroundWaterQuality"
-    },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Station de mesure BSS002GQYZ"
-    },
-    "temporalResolution": {
-        "type": "Property",
-        "value": "P1D"
-    },
-    "documentation": {
-        "type": "Property",
-        "value": "http://services.ades.eaufrance.fr/pointeau/BSS002GQYZ"
-    },
-    "bssId": {
-        "type": "Property",
-        "value": "BSS002GQYZ"
-    },
-    "location": {
-        "type": "GeoProperty",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                4.011498,
-                43.630248
-            ]
-        }
-    },
-    "piezometricDepth": {
-        "type": "Property",
-        "value": 2.13,
-        "observedAt": "2005-06-08T00:00:00Z",
-        "unitCode": "MTR",
-        "sandreCode": {
-            "type": "Property",
-            "value": "1689"
-        }
-    },
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+  "id": "urn:ngsi-ld:Distribution:Station:GroundWaterQuality",
+  "type": [
+    "Distribution",
+    "Station"
+  ],
+  "servesDataset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Dataset:GroundWaterQuality"
+  },
+  "accessURL": {
+    "type": "Property",
+    "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:GroundWaterQuality"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Station de mesure BSS002GQYZ"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "P1D"
+  },
+  "documentation": {
+    "type": "Property",
+    "value": "http://services.ades.eaufrance.fr/pointeau/BSS002GQYZ"
+  },
+  "bssId": {
+    "type": "Property",
+    "value": "BSS002GQYZ"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        4.011498,
+        43.630248
+      ]
+    }
+  },
+  "piezometricDepth": {
+    "type": "Property",
+    "value": 2.13,
+    "observedAt": "2005-06-08T00:00:00Z",
+    "unitCode": "MTR",
+    "sandreCode": {
+      "type": "Property",
+      "value": "1689"
+    }
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

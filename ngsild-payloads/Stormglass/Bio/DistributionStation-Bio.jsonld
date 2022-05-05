@@ -1,87 +1,87 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Station:Bio:Bouzigues",
-    "type": "Distribution",
-    "servesDataset": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:Stormglass:Bio"
-    },
-    "accessURL": {
-        "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Bio:Bouzigues"
-    },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Point de mesure biologique centré sur Bouzigues"
-    },
-    "temporalResolution": {
-        "type": "Property",
-        "value": "P1D"
-    },
-    "location": {
-        "type": "GeoProperty",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                3.63969,
-                43.43358
-            ]
-        }
-    },
-    "chlorophyll": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "GP",
-            "datasetId": "urn:ngsi-ld:Dataset:mercator"
-        }
-    ],
-    "nitrate": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "C36",
-            "datasetId": "urn:ngsi-ld:Dataset:mercator"
-        }
-    ],
-    "oxygen": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "C36",
-            "datasetId": "urn:ngsi-ld:Dataset:mercator"
-        }
-    ],
-    "ph": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "C62",
-            "datasetId": "urn:ngsi-ld:Dataset:mercator"
-        }
-    ],
-    "salinity": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "NX",
-            "datasetId": "urn:ngsi-ld:Dataset:meto"
-        }
-    ],
-    "phytoplankton": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "C36",
-            "datasetId": "urn:ngsi-ld:Dataset:mercator"
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+  "id": "urn:ngsi-ld:Distribution:Station:Bio:Bouzigues",
+  "type": "Distribution",
+  "servesDataset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Dataset:Stormglass:Bio"
+  },
+  "accessURL": {
+    "type": "Property",
+    "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Bio:Bouzigues"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Point de mesure biologique centré sur Bouzigues"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "P1D"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        3.63969,
+        43.43358
+      ]
+    }
+  },
+  "chlorophyll": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "GP",
+      "datasetId": "urn:ngsi-ld:Dataset:mercator"
+    }
+  ],
+  "nitrate": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "C36",
+      "datasetId": "urn:ngsi-ld:Dataset:mercator"
+    }
+  ],
+  "oxygen": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "C36",
+      "datasetId": "urn:ngsi-ld:Dataset:mercator"
+    }
+  ],
+  "ph": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "C62",
+      "datasetId": "urn:ngsi-ld:Dataset:mercator"
+    }
+  ],
+  "salinity": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "NX",
+      "datasetId": "urn:ngsi-ld:Dataset:meto"
+    }
+  ],
+  "phytoplankton": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "C36",
+      "datasetId": "urn:ngsi-ld:Dataset:mercator"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

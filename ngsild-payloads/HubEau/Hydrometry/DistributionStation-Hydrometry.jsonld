@@ -1,58 +1,58 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Station:Hydrometry",
-    "type": [
-        "Distribution",
-        "Station"
-    ],
-    "servesDataset": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:Hydrometry"
-    },
-    "accessURL": {
-        "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Hydrometry"
-    },
-    "dcTitle": {
-        "type": "Property",
-        "value": "L'Hérault à Montagnac"
-    },
-    "dcDescription": {
-        "type": "Property",
-        "value": "Station hydrométriques Y233001001"
-    },
-    "temporalResolution": {
-        "type": "Property",
-        "value": "P1D"
-    },
-    "stationCode": {
-        "type": "Property",
-        "value": "Y233001001"
-    },
-    "siteCode": {
-        "type": "Property",
-        "value": "Y2330010"
-    },
-    "location": {
-        "type": "GeoProperty",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                3.445574088057037,
-                43.47473530317853
-            ]
-        }
-    },
-    "flow": {
-        "type": "Property",
-        "value": 12.6,
-        "observedAt": "2022-02-21T23:55:00Z",
-        "unitCode": "MQS",
-        "sandreCode": {
-            "type": "Property",
-            "value": "513"
-        }
-    },
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+  "id": "urn:ngsi-ld:Distribution:Station:Hydrometry",
+  "type": [
+    "Distribution",
+    "Station"
+  ],
+  "servesDataset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Dataset:Hydrometry"
+  },
+  "accessURL": {
+    "type": "Property",
+    "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Hydrometry"
+  },
+  "title": {
+    "type": "Property",
+    "value": "L'Hérault à Montagnac"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Station hydrométriques Y233001001"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "P1D"
+  },
+  "stationCode": {
+    "type": "Property",
+    "value": "Y233001001"
+  },
+  "siteCode": {
+    "type": "Property",
+    "value": "Y2330010"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        3.445574088057037,
+        43.47473530317853
+      ]
+    }
+  },
+  "flow": {
+    "type": "Property",
+    "value": 12.6,
+    "observedAt": "2022-02-21T23:55:00Z",
+    "unitCode": "MQS",
+    "sandreCode": {
+      "type": "Property",
+      "value": "513"
+    }
+  },
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

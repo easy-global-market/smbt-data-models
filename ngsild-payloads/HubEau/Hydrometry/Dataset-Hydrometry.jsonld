@@ -1,39 +1,39 @@
 {
-    "id": "urn:ngsi-ld:Dataset:Hydrometry",
-    "type": "Dataset",
-    "dcDescription": {
-        "type": "Property",
-        "value": "Les données de l'API 'Hydrométrie' sont issues de la plate-forme HYDRO Centrale (PHyC), opérée par le Service Central d'Hydrométéorologie et d'Appui à la Prévision des Inondations (SCHAPI)"
+  "id": "urn:ngsi-ld:Dataset:Hydrometry",
+  "type": "Dataset",
+  "description": {
+    "type": "Property",
+    "value": "Les données de l'API 'Hydrométrie' sont issues de la plate-forme HYDRO Centrale (PHyC), opérée par le Service Central d'Hydrométéorologie et d'Appui à la Prévision des Inondations (SCHAPI)"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Hydrométrie"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:SCHAPI"
+  },
+  "catalog": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Catalog:HubEau"
+  },
+  "landingPage": {
+    "type": "Property",
+    "value": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
+  },
+  "theme": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Theme:EauNutriments",
+      "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
     },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Hydrométrie"
-    },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:SCHAPI"
-    },
-    "catalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:HubEau"
-    },
-    "landingPage": {
-        "type": "Property",
-        "value": "https://hubeau.eaufrance.fr/page/api-hydrometrie"
-    },
-    "theme": [
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:EauNutriments",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
-        },
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+      "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }
