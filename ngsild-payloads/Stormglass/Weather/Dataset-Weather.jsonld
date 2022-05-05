@@ -1,116 +1,116 @@
 {
-    "id": "urn:ngsi-ld:Dataset:Stormglass:Weather",
-    "type": "Dataset",
-    "dcDescription": {
+  "id": "urn:ngsi-ld:Dataset:Stormglass:Weather",
+  "type": "Dataset",
+  "description": {
+    "type": "Property",
+    "value": "L'API Weather permet de récupérer des données météorologiques en un point précis"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Données météorologiques"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:StormGlassAB"
+  },
+  "landingPage": {
+    "type": "Property",
+    "value": "https://docs.stormglass.io/?_gl=1*wixh4r*_ga*MTcyMDIzNzExNS4xNjQ4MDUxMTg0*_ga_79XDW52F27*MTY0OTg1MzY2Ni4zLjAuMTY0OTg1MzY2Ni4w#/weather"
+  },
+  "theme": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+      "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
+    }
+  ],
+  "catalog": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Catalog:Stormglass"
+  },
+  "includedParameters": [
+    {
+      "type": "Property",
+      "value": "Température de l'air",
+      "datasetId": "urn:ngsi-ld:Dataset:AirTemperature",
+      "unitCode": "CEL",
+      "propertyName": {
         "type": "Property",
-        "value": "L'API Weather permet de récupérer des données météorologiques en un point précis"
+        "value": "airTemperature"
+      }
     },
-    "dcTitle": {
+    {
+      "type": "Property",
+      "value": "Pression de l'air",
+      "datasetId": "urn:ngsi-ld:Dataset:Pressure",
+      "unitCode": "A97",
+      "propertyName": {
         "type": "Property",
-        "value": "Données météorologiques"
+        "value": "pressure"
+      }
     },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:StormGlassAB"
-    },
-    "landingPage": {
+    {
+      "type": "Property",
+      "value": "Humidité relative",
+      "datasetId": "urn:ngsi-ld:Dataset:Humidity",
+      "unitCode": "P1",
+      "propertyName": {
         "type": "Property",
-        "value": "https://docs.stormglass.io/?_gl=1*wixh4r*_ga*MTcyMDIzNzExNS4xNjQ4MDUxMTg0*_ga_79XDW52F27*MTY0OTg1MzY2Ni4zLjAuMTY0OTg1MzY2Ni4w#/weather"
+        "value": "humidity"
+      }
     },
-    "theme": [
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
-        }
-    ],
-    "catalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:Stormglass"
+    {
+      "type": "Property",
+      "value": "Précipitation",
+      "datasetId": "urn:ngsi-ld:Dataset:Precipitation",
+      "unitCode": "H67",
+      "propertyName": {
+        "type": "Property",
+        "value": "precipitation"
+      }
     },
-    "includedParameters": [
-        {
-            "type": "Property",
-            "value": "Température de l'air",
-            "datasetId": "urn:ngsi-ld:Dataset:AirTemperature",
-            "unitCode": "CEL",
-            "propertyName": {
-                "type": "Property",
-                "value": "airTemperature"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Pression de l'air",
-            "datasetId": "urn:ngsi-ld:Dataset:Pressure",
-            "unitCode": "A97",
-            "propertyName": {
-                "type": "Property",
-                "value": "pressure"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Humidité relative",
-            "datasetId": "urn:ngsi-ld:Dataset:Humidity",
-            "unitCode": "P1",
-            "propertyName": {
-                "type": "Property",
-                "value": "humidity"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Précipitation",
-            "datasetId": "urn:ngsi-ld:Dataset:Precipitation",
-            "unitCode": "H67",
-            "propertyName": {
-                "type": "Property",
-                "value": "precipitation"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Hauteur de la mer par rapport au niveau moyen de la mer (MSL)",
-            "datasetId": "urn:ngsi-ld:Dataset:SeaLevel",
-            "unitCode": "MTR",
-            "propertyName": {
-                "type": "Property",
-                "value": "seaLevel"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Température de l'eau",
-            "datasetId": "urn:ngsi-ld:Dataset:WaterTemperature",
-            "unitCode": "CEL",
-            "propertyName": {
-                "type": "Property",
-                "value": "waterTemperature"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Direction du vent à 10m au dessus du niveau de la mer (0° indique un vent du Nord)",
-            "datasetId": "urn:ngsi-ld:Dataset:WindDirection",
-            "unitCode": "DD",
-            "propertyName": {
-                "type": "Property",
-                "value": "windDirection"
-            }
-        },
-        {
-            "type": "Property",
-            "value": "Vitesse du vent à 10m au dessus du niveau de la mer",
-            "datasetId": "urn:ngsi-ld:Dataset:WindSpeed",
-            "unitCode": "MTS",
-            "propertyName": {
-                "type": "Property",
-                "value": "windSpeed"
-            }
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+    {
+      "type": "Property",
+      "value": "Hauteur de la mer par rapport au niveau moyen de la mer (MSL)",
+      "datasetId": "urn:ngsi-ld:Dataset:SeaLevel",
+      "unitCode": "MTR",
+      "propertyName": {
+        "type": "Property",
+        "value": "seaLevel"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Température de l'eau",
+      "datasetId": "urn:ngsi-ld:Dataset:WaterTemperature",
+      "unitCode": "CEL",
+      "propertyName": {
+        "type": "Property",
+        "value": "waterTemperature"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Direction du vent à 10m au dessus du niveau de la mer (0° indique un vent du Nord)",
+      "datasetId": "urn:ngsi-ld:Dataset:WindDirection",
+      "unitCode": "DD",
+      "propertyName": {
+        "type": "Property",
+        "value": "windDirection"
+      }
+    },
+    {
+      "type": "Property",
+      "value": "Vitesse du vent à 10m au dessus du niveau de la mer",
+      "datasetId": "urn:ngsi-ld:Dataset:WindSpeed",
+      "unitCode": "MTS",
+      "propertyName": {
+        "type": "Property",
+        "value": "windSpeed"
+      }
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

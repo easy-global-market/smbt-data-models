@@ -2,18 +2,18 @@
   "id": "urn:ngsi-ld:Theme:EauNutriments",
   "type": "Theme",
   "dcTtitle": {
-      "type": "Property",
-      "value": "Eau & Nutriments"
+    "type": "Property",
+    "value": "Eau & Nutriments"
   },
-  "dcDescription": {
-      "type": "Property",
-      "value": "Compléter la connaissance sur les apports en nutriments et en eau"
+  "description": {
+    "type": "Property",
+    "value": "Compléter la connaissance sur les apports en nutriments et en eau"
   },
   "hasLogo": {
-      "type": "Property",
-      "value": "https://i.imgur.com/ojFkFWs.png"
+    "type": "Property",
+    "value": "https://i.imgur.com/ojFkFWs.png"
   },
   "@context": [
-      "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
   ]
 }

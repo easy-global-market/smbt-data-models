@@ -1,46 +1,46 @@
 {
-    "id": "urn:ngsi-ld:Dataset:Stormglass:Solar",
-    "type": "Dataset",
-    "dcDescription": {
+  "id": "urn:ngsi-ld:Dataset:Stormglass:Solar",
+  "type": "Dataset",
+  "description": {
+    "type": "Property",
+    "value": "L'API Solar permet de récupérer des données solaires en un point précis"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Données solaires"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:StormGlassAB"
+  },
+  "landingPage": {
+    "type": "Property",
+    "value": "https://docs.stormglass.io/?_gl=1*wixh4r*_ga*MTcyMDIzNzExNS4xNjQ4MDUxMTg0*_ga_79XDW52F27*MTY0OTg1MzY2Ni4zLjAuMTY0OTg1MzY2Ni4w#/solar"
+  },
+  "theme": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
+      "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
+    }
+  ],
+  "catalog": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Catalog:Stormglass"
+  },
+  "includedParameters": [
+    {
+      "type": "Property",
+      "value": "Flux de rayonnement descendant à ondes courtes au niveau de la mer",
+      "datasetId": "urn:ngsi-ld:Dataset:DownwardShortWaveRadiationFlux",
+      "unitCode": "D54",
+      "propertyName": {
         "type": "Property",
-        "value": "L'API Solar permet de récupérer des données solaires en un point précis"
-    },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Données solaires"
-    },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:StormGlassAB"
-    },
-    "landingPage": {
-        "type": "Property",
-        "value": "https://docs.stormglass.io/?_gl=1*wixh4r*_ga*MTcyMDIzNzExNS4xNjQ4MDUxMTg0*_ga_79XDW52F27*MTY0OTg1MzY2Ni4zLjAuMTY0OTg1MzY2Ni4w#/solar"
-    },
-    "theme": [
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:RisquesEnvironnement",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement"
-        }
-    ],
-    "catalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:Stormglass"
-    },
-    "includedParameters": [
-        {
-            "type": "Property",
-            "value": "Flux de rayonnement descendant à ondes courtes au niveau de la mer",
-            "datasetId": "urn:ngsi-ld:Dataset:DownwardShortWaveRadiationFlux",
-            "unitCode": "D54",
-            "propertyName": {
-                "type": "Property",
-                "value": "downwardShortWaveRadiationFlux"
-            }
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+        "value": "downwardShortWaveRadiationFlux"
+      }
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

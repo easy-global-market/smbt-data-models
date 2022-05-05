@@ -1,40 +1,40 @@
 {
-    "id": "urn:ngsi-ld:Catalog:HubEau",
-    "type": "Catalog",
-    "dcTitle": {
-        "type": "Property",
-        "value": "API Hub'Eau"
+  "id": "urn:ngsi-ld:Catalog:HubEau",
+  "type": "Catalog",
+  "title": {
+    "type": "Property",
+    "value": "API Hub'Eau"
+  },
+  "description": {
+    "type": "Property",
+    "value": "Service pérenne de la toile Eau France, Hub'Eau met à disposition des API Rest favorisant l'accès aux données du SIE"
+  },
+  "homepage": {
+    "type": "Property",
+    "value": "https://hubeau.eaufrance.fr/"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:EauFrance"
+  },
+  "dataset": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:SurfaceWaterQuality",
+      "datasetId": "urn:ngsi-ld:Dataset:02"
     },
-    "dcDescription": {
-        "type": "Property",
-        "value": "Service pérenne de la toile Eau France, Hub'Eau met à disposition des API Rest favorisant l'accès aux données du SIE"
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:LittoralWaterMonitoring",
+      "datasetId": "urn:ngsi-ld:Dataset:03"
     },
-    "homepage": {
-        "type": "Property",
-        "value": "https://hubeau.eaufrance.fr/"
-    },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:EauFrance"
-    },
-    "dataset": [
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:SurfaceWaterQuality",
-            "datasetId": "urn:ngsi-ld:Dataset:02"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:LittoralWaterMonitoring",
-            "datasetId": "urn:ngsi-ld:Dataset:03"
-        },
-        {
-            "type": "Relationship",
-            "object": "urn:ngsi-ld:Dataset:GroundWaterQuality",
-            "datasetId": "urn:ngsi-ld:Dataset:04"
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld"
-    ]
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Dataset:GroundWaterQuality",
+      "datasetId": "urn:ngsi-ld:Dataset:04"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld"
+  ]
 }

@@ -1,53 +1,53 @@
 {
-    "id": "urn:ngsi-ld:Dataset:GroundWaterQuality",
-    "type": "Dataset",
-    "dcDescription": {
+  "id": "urn:ngsi-ld:Dataset:GroundWaterQuality",
+  "type": "Dataset",
+  "description": {
+    "type": "Property",
+    "value": "L'API 'Qualité des nappes d'eau souterraine' permet d'accéder aux données de qualité physico-chimique des nappes d'eau souterraine françaises, issues de la banque nationale d'Accès aux Données sur les Eaux Souterraines ADES"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Qualité des nappes d'eau souterraine"
+  },
+  "isPublishedBy": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Agent:BRGM"
+  },
+  "landingPage": {
+    "type": "Property",
+    "value": "https://hubeau.eaufrance.fr/page/api-qualite-nappes"
+  },
+  "theme": [
+    {
+      "type": "Relationship",
+      "object": "urn:ngsi-ld:Theme:EauNutriments",
+      "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
+    }
+  ],
+  "catalog": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Catalog:HubEau"
+  },
+  "includedParameters": [
+    {
+      "type": "Property",
+      "value": "Profondeur du niveau piézométrique",
+      "datasetId": "urn:ngsi-ld:Dataset:PiezometricDepth",
+      "sandreCode": {
         "type": "Property",
-        "value": "L'API 'Qualité des nappes d'eau souterraine' permet d'accéder aux données de qualité physico-chimique des nappes d'eau souterraine françaises, issues de la banque nationale d'Accès aux Données sur les Eaux Souterraines ADES"
-    },
-    "dcTitle": {
+        "value": 1689
+      },
+      "documentation": {
         "type": "Property",
-        "value": "Qualité des nappes d'eau souterraine"
-    },
-    "isPublishedBy": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Agent:BRGM"
-    },
-    "landingPage": {
+        "value": "https://id.eaufrance.fr/par/1689"
+      },
+      "propertyName": {
         "type": "Property",
-        "value": "https://hubeau.eaufrance.fr/page/api-qualite-nappes"
-    },
-    "theme": [
-        {
-          "type": "Relationship",
-          "object": "urn:ngsi-ld:Theme:EauNutriments",
-          "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments"
-        }
-    ],
-    "catalog": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Catalog:HubEau"
-    },
-    "includedParameters": [
-        {
-            "type": "Property",
-            "value": "Profondeur du niveau piézométrique",
-            "datasetId": "urn:ngsi-ld:Dataset:PiezometricDepth",
-            "sandreCode": {
-                "type": "Property",
-                "value": 1689
-            },
-            "documentation": {
-                "type": "Property",
-                "value": "https://id.eaufrance.fr/par/1689"
-            },
-            "propertyName": {
-                "type": "Property",
-                "value": "piezometricDepth"
-            }
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+        "value": "piezometricDepth"
+      }
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }

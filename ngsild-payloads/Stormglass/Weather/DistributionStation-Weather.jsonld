@@ -1,226 +1,231 @@
 {
-    "id": "urn:ngsi-ld:Distribution:Station:Weather:Bouzigues",
-    "type": "Distribution",
-    "servesDataset": {
-        "type": "Relationship",
-        "object": "urn:ngsi-ld:Dataset:Stormglass:Weather"
+  "id": "urn:ngsi-ld:Distribution:Station:Weather:Bouzigues",
+  "type": "Distribution",
+  "servesDataset": {
+    "type": "Relationship",
+    "object": "urn:ngsi-ld:Dataset:Stormglass:Weather"
+  },
+  "accessURL": {
+    "type": "Property",
+    "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Weather:Bouzigues"
+  },
+  "title": {
+    "type": "Property",
+    "value": "Point de mesure météo centré sur Bouzigues"
+  },
+  "temporalResolution": {
+    "type": "Property",
+    "value": "P1D"
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        3.63969,
+        43.43358
+      ]
+    }
+  },
+  "airTemperature": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "CEL",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
     },
-    "accessURL": {
-        "type": "Property",
-        "value": "https://smbt-rol-recette.stellio.io/ngsi-ld/v1/temporal/urn:ngsi-ld:Distribution:Station:Weather:Bouzigues"
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "CEL",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
     },
-    "dcTitle": {
-        "type": "Property",
-        "value": "Point de mesure météo centré sur Bouzigues"
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "CEL",
+      "datasetId": "urn:ngsi-ld:Dataset:smhi"
+    }
+  ],
+  "pressure": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "A97",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
     },
-    "temporalResolution": {
-        "type": "Property",
-        "value": "P1D"
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "A97",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
     },
-    "location": {
-        "type": "GeoProperty",
-        "value": {
-            "type": "Point",
-            "coordinates": [
-                3.63969,
-                43.43358
-            ]
-        }
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "A97",
+      "datasetId": "urn:ngsi-ld:Dataset:yr"
     },
-    "airTemperature": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },{
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },{
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:smhi"
-        }
-    ],
-    "pressure": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },{
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },{
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:yr"
-        },{
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "A97",
-            "datasetId": "urn:ngsi-ld:Dataset:smhi"
-        }
-    ],
-    "humidiy": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "P1",
-            "datasetId": "urn:ngsi-ld:Dataset:smhi"
-        }
-    ],
-    "precipitation": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "H67",
-            "datasetId": "urn:ngsi-ld:Dataset:smhi"
-        }
-    ],
-    "seaLevel": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:meto"
-        }
-    ],
-    "waterTemperature": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "CEL",
-            "datasetId": "urn:ngsi-ld:Dataset:meto"
-        }
-    ],
-    "windDirection": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:icon"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:fmi"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "DD",
-            "datasetId": "urn:ngsi-ld:Dataset:yr"
-        }
-    ],
-    "windSpeed": [
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:icon"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:noaa"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:dwd"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:fmi"
-        },
-        {
-            "type": "Property",
-            "value": 0,
-            "observedAt": "1970-01-01T00:00:00Z",
-            "unitCode": "MTR",
-            "datasetId": "urn:ngsi-ld:Dataset:yr"
-        }
-    ],
-    "@context": [
-        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
-    ]
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "A97",
+      "datasetId": "urn:ngsi-ld:Dataset:smhi"
+    }
+  ],
+  "humidiy": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "P1",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "P1",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "P1",
+      "datasetId": "urn:ngsi-ld:Dataset:smhi"
+    }
+  ],
+  "precipitation": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "H67",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "H67",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "H67",
+      "datasetId": "urn:ngsi-ld:Dataset:smhi"
+    }
+  ],
+  "seaLevel": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:meto"
+    }
+  ],
+  "waterTemperature": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "CEL",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "CEL",
+      "datasetId": "urn:ngsi-ld:Dataset:meto"
+    }
+  ],
+  "windDirection": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "DD",
+      "datasetId": "urn:ngsi-ld:Dataset:icon"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "DD",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "DD",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "DD",
+      "datasetId": "urn:ngsi-ld:Dataset:fmi"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "DD",
+      "datasetId": "urn:ngsi-ld:Dataset:yr"
+    }
+  ],
+  "windSpeed": [
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:icon"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:noaa"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:dwd"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:fmi"
+    },
+    {
+      "type": "Property",
+      "value": 0,
+      "observedAt": "1970-01-01T00:00:00Z",
+      "unitCode": "MTR",
+      "datasetId": "urn:ngsi-ld:Dataset:yr"
+    }
+  ],
+  "@context": [
+    "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+  ]
 }
