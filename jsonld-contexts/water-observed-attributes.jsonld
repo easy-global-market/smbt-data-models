@@ -1,17 +1,17 @@
 {
     "@context": {
+        "ammonium": "https://smartdatamodels.org/ammonium",
+        "benzoFluoranthene": "https://smartdatamodels.org/benzoFluoranthene",
+        "conductivity": "https://smartdatamodels.org/conductivity",
+        "dissolvedOxygen": "https://smartdatamodels.org/dissolvedOxygen",
         "flow": "https://smartdatamodels.org/flow",
         "nephelometricFormazinTurbidity": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
-        "benzoFluoranthene": "https://smartdatamodels.org/benzoFluoranthene",
-        "nitrite": "https://smartdatamodels.org/nitrite",
         "nitrate": "https://smartdatamodels.org/nitrate",
-        "orthophosphate": "https://smartdatamodels.org/orthophosphate",
+        "nitrite": "https://smartdatamodels.org/nitrite",
         "nitrogenKjeldahl": "https://smartdatamodels.org/nitrogenKjeldahl",
-        "ammonium": "https://smartdatamodels.org/ammonium",
+        "orthophosphate": "https://smartdatamodels.org/orthophosphate",
+        "piezometricDepth": "https://smartdatamodels.org/piezometricDepth",
         "totalPhosphorus": "https://smartdatamodels.org/totalPhosphorus",
-        "dissolvedOxygen": "https://smartdatamodels.org/dissolvedOxygen",
-        "waterTemperature": "https://smartdatamodels.org/waterTemperature",
-        "conductivity": "https://smartdatamodels.org/conductivity",
-        "piezometricDepth": "https://smartdatamodels.org/piezometricDepth"
+        "waterTemperature": "https://smartdatamodels.org/waterTemperature"
     }
 }
