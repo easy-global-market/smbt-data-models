@@ -11,6 +11,7 @@
         "totalPhosphorus": "https://smartdatamodels.org/totalPhosphorus",
         "dissolvedOxygen": "https://smartdatamodels.org/dissolvedOxygen",
         "waterTemperature": "https://smartdatamodels.org/waterTemperature",
-        "conductivity": "https://smartdatamodels.org/conductivity"
+        "conductivity": "https://smartdatamodels.org/conductivity",
+        "piezometricDepth": "https://smartdatamodels.org/piezometricDepth"
     }
 }
