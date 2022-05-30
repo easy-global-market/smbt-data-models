@@ -1,0 +1,38 @@
+{
+    "id": "urn:ngsi-ld:Catalog:Sextant",
+    "type": "Catalog",
+    "dcTitle": {
+        "type": "Property",
+        "value": "Infrastructure de données géographiques marines et littorales"
+    },
+    "dcDescription": {
+        "type": "Property",
+        "value": "Infrastructure de Données Géographiques (IDG) marines et littorales, Sextant a pour objectif de documenter, diffuser et promouvoir un catalogue de données relevant du milieu marin"
+    },
+    "homepage": {
+        "type": "Property",
+        "value": "https://sextant.ifremer.fr/"
+    },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Ifremer"
+    },
+    "dataset": [
+        {
+            "type": "Relationship",
+            "object": "urn:ngsi-ld:Dataset:Sextant:LitoralWaterMonitoring",
+            "datasetId": "urn:ngsi-ld:Dataset:LitoralWaterMonitoring"
+        }
+    ],
+    "hasLogo": {
+        "type": "Property",
+        "value": "https://imgur.com/lkzQKTn"
+    },
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    },
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+    ]
+}
