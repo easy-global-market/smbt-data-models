@@ -1,0 +1,387 @@
+{
+    "id": "urn:ngsi-ld:Dataset:Sextant:LittoralWaterMonitoring",
+    "type": "Dataset",
+    "description": {
+        "type": "Property",
+        "value": "Données d'observation et de surveillance bancarisées dans Quadrige, validées et qui ne sont pas sous moratoire. Contient des résultats sur la plupart des paramètres physiques, chimiques et biologiques de description de l'environnement"
+    },
+    "isPublishedBy": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Agent:Ifremer"
+    },
+    "title": {
+        "type": "Property",
+        "value": "Surveillance littorale"
+    },
+    "catalog": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:Catalog:Sextant"
+    },
+    "landingPage": {
+        "type": "Property",
+        "value": "https://sextant.ifremer.fr/Services/Inspire/Services-WFS/Surveillance-littorale-reseaux-de-surveillance-littorale-actifs-historiques"
+    },
+    "theme": [
+        {
+            "type": "Relationship",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:EauNutriments",
+            "object": "urn:ngsi-ld:Theme:EauNutriments"
+        },
+        {
+            "type": "Relationship",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:RisquesEnvironnement",
+            "object": "urn:ngsi-ld:Theme:RisquesEnvironnement"
+        },
+        {
+            "type": "Relationship",
+            "datasetId": "urn:ngsi-ld:Dataset:Theme:BiodiversiteHabitats",
+            "object": "urn:ngsi-ld:Theme:BiodiversiteHabitats"
+        }
+    ],
+    "specificAccessPolicy": {
+        "type": "Property",
+        "value": "AUTH_READ"
+    },
+    "includedParameters": [{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "totalFlora"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "FLORTOT"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:TotalFlora",
+        "value": "Flore Totale - abondance de cellules",
+        "unitCode": "K63"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "salinity"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "SALI"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Salinity",
+        "value": "Salinité",
+        "unitCode": "C62"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "waterTemperature"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "TEMP"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:WaterTemperature",
+        "value": "Température de l'eau",
+        "unitCode": "CEL"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "turbidity"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "TURB"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Turbidity",
+        "value": "Turbidité",
+        "unitCode": "NTU"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "chlorophyllA"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "CHLOROA"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:ChlorophyllA",
+        "value": "Chlorophylle A",
+        "unitCode": "H29"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "turbidityFnu"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "TURB-FNU"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:TurbidityFNU",
+        "value": "Turbidité FNU",
+        "unitCode": "FNU"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "ammonium"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NH4"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Ammonium",
+        "value": "Ammonium",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "nitrateAndNitrite"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NO3+NO2"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NitriteAndNitrate",
+        "value": "Nitrate + nitrite",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "dissolvedOxygen"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "OXYGENE"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:DissolvedOxygen",
+        "value": "Oxygène dissous",
+        "unitCode": "M1"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "phosphate"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "PO4"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Phosphate",
+        "value": "Phosphate",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "silicate"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "SIOH"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Silicate",
+        "value": "Silicate",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "norovirus"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NoV"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Norovirus",
+        "value": "Norovirus",
+        "unitCode": "C62"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "suspendedMatter"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "MES"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:SuspendedMatter",
+        "value": "Matières en suspension",
+        "unitCode": "M1"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "nitrousNitrogen"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NO2"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NitrousNitrogen",
+        "value": "Azote nitreux (nitrite)",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "nitricNitrogen"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NO3"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NitricNitrogen",
+        "value": "Azote nitrique (nitrate)",
+        "unitCode": "M33"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "pH"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "PH"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:PH",
+        "value": "pH",
+        "unitCode": "Q30"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "totalNitrogen"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NT"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:TotalNitrogen",
+        "value": "Azote total",
+        "unitCode": "GK"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "totalPhosphore"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "PT"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:TotalPhosphore",
+        "value": "Phosphore total",
+        "unitCode": "NA"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "oxygenSaturation"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "O2SAT%"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:OxygenSaturation",
+        "value": "Pourcentage de saturation",
+        "unitCode": "P1"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "norovirusGenogroupI"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NoV GI"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NorovirusGenogroupI",
+        "value": "Norovirus génogroupe I",
+        "unitCode": "CPL"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "norovirusGenogroupI"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NoV GII"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NorovirusGenogroupII",
+        "value": "Norovirus génogroupe II",
+        "unitCode": "CPL"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "organicCarbon"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "CORG"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:OrganicCarbon",
+        "value": "Carbone organique",
+        "unitCode": "GK"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "conductivity"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "CONDUCTI"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:Conductivity",
+        "value": "Conductivité",
+        "unitCode": "G42"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "nitrogenKjeldahl"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "KJELDAHL"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:NitrogenKjeldahl",
+        "value": "Azote Kjeldahl",
+        "unitCode": "GK"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "organicPhosphorus"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "PORG"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:OrganicPhosphorus",
+        "value": "Phosphore organique",
+        "unitCode": "NA"
+    },{
+        "type": "Property",
+        "propertyName": {
+            "type": "Property",
+            "value": "organicNitrogen"
+        },
+        "parameterCode": {
+            "type": "Property",
+            "value": "NORG"
+        },
+        "datasetId": "urn:ngsi-ld:Dataset:OrganicNitrogen",
+        "value": "Azote organique",
+        "unitCode": "M33"
+    }],
+    "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/smbt-rol.jsonld"
+    ]
+}
