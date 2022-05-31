@@ -1,11 +1,11 @@
 {
     "id": "urn:ngsi-ld:Catalog:Sextant",
     "type": "Catalog",
-    "dcTitle": {
+    "title": {
         "type": "Property",
         "value": "Infrastructure de données géographiques marines et littorales"
     },
-    "dcDescription": {
+    "description": {
         "type": "Property",
         "value": "Infrastructure de Données Géographiques (IDG) marines et littorales, Sextant a pour objectif de documenter, diffuser et promouvoir un catalogue de données relevant du milieu marin"
     },
