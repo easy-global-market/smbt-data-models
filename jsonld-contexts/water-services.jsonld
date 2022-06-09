@@ -1,10 +1,23 @@
 {
     "@context": {
+        "campaign": "https://smartdatamodels.org/campaign",
+        "citation": "https://smartdatamodels.org/citation",
+        "depthSampling": "https://smartdatamodels.org/depthSampling",
+        "group": "https://smartdatamodels.org/group",
         "includedParameters": "https://smartdatamodels.org/includedParameters",
-        "sandreCode": "https://smartdatamodels.org/sandreCode",
-        "stationCode": "https://smartdatamodels.org/stationCode",
-        "siteCode": "https://smartdatamodels.org/siteCode",
+        "invididualNumber": "https://smartdatamodels.org/individualNumber",
+        "Program": "https://smartdatamodels.org/Program",
         "propertyName": "https://smartdatamodels.org/propertyName",
+        "qualityDescription": "https://smartdatamodels.org/qualityDescription",
+        "qualityLevel": "https://smartdatamodels.org/qualityLevel",
+        "sampleDescription": "https://smartdatamodels.org/sampleDescription",
+        "sandreCode": "https://smartdatamodels.org/sandreCode",
+        "sextantCode": "https://smartdatamodels.org/sextantCode",
+        "siteCode": "https://smartdatamodels.org/siteCode",
+        "stationCode": "https://smartdatamodels.org/stationCode",
+        "subTheme": "https://smartdatamodels.org/subTheme",
+        "taxonGroup": "https://smartdatamodels.org/taxonGroup",
+        "taxonLabel": "https://smartdatamodels.org/taxonLabel",
         "Theme": "https://smartdatamodels.org/Theme"
     }
 }
