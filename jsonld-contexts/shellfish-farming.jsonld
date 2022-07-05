@@ -1,19 +1,25 @@
 {
     "@context": {
+        "aliveIndividuals": "https://smart-data-models.org/aliveIndividuals",
+        "aliveIndividualsTotalWeight": "https://smart-data-models.org/aliveIndividualsTotalWeight",
         "column": "https://smart-data-models.org/column",
         "comment": "https://schema.org/comment",
         "concessionNumber": "https://smart-data-models.org/concessionNumber",
         "Corporation": "https://schema.org/Corporation",
+        "cumulativeSurvival": "https://smart-data-models.org/cumulativeSurvival",
         "decreeComment": "https://schema.org/decreeComment",
         "decreeFile": "https://schema.org/decreeFile",
         "decreeTitle": "https://schema.org/decreeTitle",
         "familyName": "https://schema.org/familyName",
+        "fleshWeight": "https://smart-data-models.org/fleshWeight",
         "gid": "https://schema.org/gid",
         "givenName": "https://schema.org/givenName",
         "gp1": "https://schema.org/gp1",
         "gp2": "https://schema.org/gp2",
         "gp3": "https://schema.org/gp3",
         "lastModifiedAt": "https://schema.org/lastModifiedAt",
+        "legalName": "https://schema.org/legalName",
+        "measuredIn": "https://smart-data-models.org/measuredIn",
         "motive": "https://schema.org/motive",
         "nationalCode": "https://schema.org/nationalCode",
         "ownerNumber": "https://smart-data-models.org/ownerNumber",
@@ -24,10 +30,12 @@
         "regulationText": "https://schema.org/regulationText",
         "sanitaryStatus": "https://schema.org/sanitaryStatus",
         "ShellfishTable": "https://schema.org/ShellfishTable",
+        "size": "https://smart-data-models.org/size",
         "species": "https://schema.org/species",
         "specificSpecies": "https://schema.org/specificSpecies",
         "status": "https://schema.org/status",
         "structure": "https://smart-data-models.org/structure",
-        "legalName": "https://schema.org/legalName"
+        "totalAliveIndividualsWeight": "https://smart-data-models.org/totalAliveIndividualsWeight",
+        "totalWeight": "https://smart-data-models.org/totalWeight"
     }
 }
