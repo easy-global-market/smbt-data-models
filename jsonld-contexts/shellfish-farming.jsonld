@@ -4,6 +4,7 @@
         "aliveIndividuals": "https://smart-data-models.org/aliveIndividuals",
         "aliveIndividualsTotalWeight": "https://smart-data-models.org/aliveIndividualsTotalWeight",
         "batchAge": "https://smart-data-models.org/batchAge",
+        "branchCode": "https://smart-data-models.org/branchCode",
         "breedingStructure": "https://smart-data-models.org/breedingStructure",
         "column": "https://smart-data-models.org/column",
         "comment": "https://schema.org/comment",
