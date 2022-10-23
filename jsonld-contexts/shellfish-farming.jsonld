@@ -3,6 +3,7 @@
         "addressLocality": "https://schema.org/addressLocality",
         "aliveIndividuals": "https://smart-data-models.org/aliveIndividuals",
         "aliveIndividualsTotalWeight": "https://smart-data-models.org/aliveIndividualsTotalWeight",
+        "alternateName": "https://schema.org/alternateName",
         "avgFleshWeight": "https://smart-data-models.org/avgFleshWeight",
         "avgAliveIndividuals": "https://smart-data-models.org/avgAliveIndividuals",
         "avgSize": "https://smart-data-models.org/avgSize",
