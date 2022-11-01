@@ -1,0 +1,27 @@
+PARAMETRE_CODE,PARAMETER_NAME
+NO3+NO2,nitrateAndNitrite
+PT,totalPhosphore
+NT,totalNitrogen
+NoV GII,norovirusGenogroupII
+TURB-FNU,turbidityFnu
+SIOH,silicate
+CHLOROA,chlorophyllA
+NO2,nitrousNitrogen
+NoV GI,norovirusGenogroupI
+PORG,organicPhosphorus
+NORG,organicNitrogen
+NO3,nitricNitrogen
+FLORTOT,totalFlora
+PO4,phosphate
+NoV,norovirus
+O2SAT%,oxygenSaturation
+KJELDAHL,nitrogenKjeldahl
+TURB,turbidity
+OXYGENE,dissolvedOxygen
+CONDUCTI,conductivity
+SALI,salinity
+TEMP,waterTemperature
+PH,pH
+MES,suspendedMatter
+NH4,ammonium
+CORG,organicCarbon
