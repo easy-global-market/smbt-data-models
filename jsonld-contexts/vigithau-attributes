@@ -1,0 +1,7 @@
+{
+    "@context": {
+        "waterLevel": "https://smartdatamodels.org/waterLevel",
+        "rainfall": "https://smartdatamodels.org/rainfall",
+        "voltage": "https://smartdatamodels.org/voltage",
+    }
+}
