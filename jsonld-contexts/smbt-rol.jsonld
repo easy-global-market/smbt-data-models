@@ -1,5 +1,6 @@
 {
     "@context": [
+        "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/vigithau-attributes.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/dcat.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/shellfish-farming.jsonld",
         "https://raw.githubusercontent.com/easy-global-market/smbt-data-models/master/jsonld-contexts/water-observed-attributes.jsonld",
