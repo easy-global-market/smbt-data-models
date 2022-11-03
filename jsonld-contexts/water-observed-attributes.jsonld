@@ -33,6 +33,9 @@
         "totalPhosphorus": "https://smartdatamodels.org/totalPhosphorus",
         "turbidity": "https://smartdatamodels.org/turbidity",
         "turbidityFnu": "https://smartdatamodels.org/turbidityFnu",
-        "waterTemperature": "https://smartdatamodels.org/waterTemperature"
+        "waterTemperature": "https://smartdatamodels.org/waterTemperature",
+        "waterLevel": "https://smartdatamodels.org/waterLevel",
+        "rainfall": "https://smartdatamodels.org/rainfall",
+        "voltage": "https://smartdatamodels.org/voltage"
     }
 }
