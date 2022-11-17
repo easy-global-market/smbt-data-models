@@ -25,6 +25,7 @@
         "phosphate": "https://smartdatamodels.org/phosphate",
         "piezometricDepth": "https://smartdatamodels.org/piezometricDepth",
         "salinity": "https://smartdatamodels.org/salinity",
+        "seawaterLevel": "https://smartdatamodels.org/seawaterLevel",
         "silicate": "https://smartdatamodels.org/silicate",
         "suspendedMatter": "https://smartdatamodels.org/suspendedMatter",
         "totalFlora": "https://smartdatamodels.org/totalFlora",
