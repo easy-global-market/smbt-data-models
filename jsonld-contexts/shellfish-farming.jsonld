@@ -47,6 +47,7 @@
         "Place": "https://schema.org/Place",
         "ploidy": "https://smart-data-models.org/ploidy",
         "provider": "https://smart-data-models.org/provider",
+        "rank": "https://smart-data-models.org/rank",
         "rankingType": "https://schema.org/rankingType",
         "refShellfishTable": "https://smart-data-models.org/refShellfishTable",
         "regulationText": "https://schema.org/regulationText",
