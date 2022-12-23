@@ -6,6 +6,7 @@
         "conductivity": "https://smartdatamodels.org/conductivity",
         "dissolvedOxygen": "https://smartdatamodels.org/dissolvedOxygen",
         "flow": "https://smartdatamodels.org/flow",
+        "hourlySeawaterLevel": "https://smartdatamodels.org/hourlySeawaterLevel",
         "nephelometricFormazinTurbidity": "https://smartdatamodels.org/nephelometricFormazinTurbidity",
         "nitrate": "https://smartdatamodels.org/nitrate",
         "nitrateAndNitrite": "https://smartdatamodels.org/nitrateAndNitrite",
