@@ -39,6 +39,7 @@
         "managementStructure": "https://smart-data-models.org/managementStructure",
         "measuredIn": "https://smart-data-models.org/measuredIn",
         "motive": "https://schema.org/motive",
+        "monitoringYear": "https://smart-data-models.org/monitoringYear",
         "nationalCode": "https://schema.org/nationalCode",
         "natureOfUseLabel": "https://smart-data-models.org/natureOfUseLabel",
         "ownerNumber": "https://smart-data-models.org/ownerNumber",
