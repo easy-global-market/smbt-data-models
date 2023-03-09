@@ -25,3 +25,7 @@ PH,pH
 MES,suspendedMatter
 NH4,ammonium
 CORG,organicCarbon
+LARVST1, stage1Larva
+LARVST2, stage2Larva
+LARVST3, stage3Larva
+LARVST4, stage4Larva
