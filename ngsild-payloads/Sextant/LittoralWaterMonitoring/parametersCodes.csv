@@ -29,3 +29,9 @@ LARVST1, stage1Larva
 LARVST2, stage2Larva
 LARVST3, stage3Larva
 LARVST4, stage4Larva
+AO+DTXs+PTXs-TEFs,toxineAoDtxPtx
+AZAs-TEFs,toxineAza
+YTXs-TEFs,toxineYtx
+ASP,toxineASP
+TOXPSP,toxinePSP
+FLORPAR,partialFlora
